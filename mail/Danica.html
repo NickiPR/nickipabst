@@ -1,0 +1,1356 @@
+<!-- NOTER
+
+1. FONTEN ER FORKERT, OG SKAL ENTEN LINKE EKSTERNT TIL ET STYLESHEET.
+2. spacing efter moduler
+3. spacing i farvet moduler
+4. Font-størrelse på overskrifter
+
+
+ NOTER -->
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <!--
+
+ ____                                    ___      __                  __  __              __              ____          __               __
+/  _`                                /'___    /                 / /   __        /       __    /  _`       /              / __
+  /   __  __  __     __     _ __ / __/      ____  __  __     `\ /_    ___  /' /_     L  __    ____    ____  ,_
+     / / /   /'__`  /`'__  ,__      '__`/ /      , ` /   /'___  , < /      ,__/'__`   '__`  /',__\  /
+    _   _/ _/ / L._  /   _/       L   _      `   / __/  \`\       / L._  L /__, `\  _
+    ____/ ___x___/' __/._\ _   _        _,__//`____     _ _ _ ____\ _ _ _    _ __/._\ _,__//____/  __
+    /___/  /__//__/   /__//_/ /_/   /_/        /___/  `/___/>    /_//_//_//____/ /_//_//_/    /_//__//_/ /___/  /___/   /__/
+                                                                /___/
+                                                                /__/
+
+    -->
+  <!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+  <title>
+    <!-- TITLE -->
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <link rel="stylesheet" type="text/css" href="edc-styles.css" />
+  <style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    #outlook a {
+      padding: 0;
+    }
+
+    /* Force Outlook to provide a "view in browser" message */
+
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    /* Force Hotmail to display emails at full width */
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    /* Force Hotmail to display normal line spacing */
+
+
+
+    body,
+    table,
+    td,
+    a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    /* Prevent WebKit and Windows mobile changing default text sizes */
+
+    td,
+    a,
+    span {
+      border-collapse: collapse;
+      mso-line-height-rule: exactly;
+    }
+
+    /* MSO clients doesnt overule line height */
+
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    /* Remove spacing between tables in Outlook 2007 and up */
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    body {
+      height: 100% !important;
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img {
+      border: 0;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    table {
+      border-collapse: collapse !important;
+    }
+
+    body {
+      height: 100% !important;
+      margin: 0 !important;
+      padding: 0;
+      width: 100% !important;
+    }
+
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+
+    /* iOS BLUE LINKS */
+
+    .appleEvent a {
+      color: #91908e;
+      text-decoration: none;
+    }
+
+    .appleEvent_black a {
+      color: #212121;
+      text-decoration: none;
+    }
+
+    .appleAddress a {
+      color: #212121;
+      text-decoration: none;
+    }
+
+    .appleLinks a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .appleLinksWhite a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .zoom {
+      margin: 0px;
+
+      -moz-transition: -moz-transform 0.2s ease-in;
+      -webkit-transition: -webkit-transform 0.2s ease-in;
+      -o-transition: -o-transform 0.2s ease-in;
+    }
+
+    .zoom:hover {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    }
+
+    /*TAILORED STYLES*/
+    span.snippet {
+      display: none !important;
+      font-size: 0;
+      line-height: 0;
+    }
+
+    table.backgroundTable {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+    }
+
+    a:visited {
+      color: none !important;
+    }
+
+    /* ########### GLOBAL STYLING ################# */
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .button:hover {
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2) !important;
+      -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2) !important;
+      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2) !important;
+      -o-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2) !important;
+    }
+
+    @media screen and (max-device-width: 600px),
+    screen and (max-width: 600px) {
+      .w-full {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .w-100 {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .w-90p {
+        width: 90% !important;
+        height: auto !important;
+      }
+
+      .w-50p {
+        width: 50% !important;
+        height: auto !important;
+      }
+
+      .w-20 {
+        width: 20px !important;
+        height: auto !important;
+      }
+
+      .w-320 {
+        width: 320px !important;
+        height: auto !important;
+      }
+
+      .w-left {
+        text-align: left !important;
+      }
+
+      .min-width {
+        min-width: 320px !important;
+      }
+
+      .break {
+        width: 100% !important;
+        display: block;
+        clear: both;
+      }
+
+      .break-center {
+        width: 100% !important;
+        display: block;
+        clear: both;
+        text-align: center !important;
+      }
+
+      .w-center {
+        text-align: center !important;
+
+      }
+
+      .header {
+        width: 268px !important;
+        text-align: center !important;
+      }
+    }
+  </style>
+
+  <!--[if mso]>
+<style>
+
+</style>
+<![endif]-->
+
+</head>
+
+<body style="margin: 0; padding: 0; min-width: 100%; width: 100% !important;">
+
+  <!--SNIPPET-->
+  <span class="snippet" style="font-size: 0;line-height: 0;display: none !important;">&nbsp;</span>
+  <!--SNIPPET-->
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fff">
+    <tr>
+      <td class="min-width" style="min-width: 640px;">
+
+        <!-- DANICA PENSION HEADER -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td height="40" style="height:40px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 580px;">
+                <tr>
+                  <td align="left" class="break" style="vertical-align:top;">
+                    <a href="#" target="_blank">
+                      <img class="w-full" alt="Danica Pension" height="35" src="http://nickipabst.dk/mail/img/c170f61d-47ae-4d4e-aac3-06b5767b6b3c.png" style="width:268px; display: block; border: 0; height: 35px;" />
+                    </a>
+                  </td>
+                  <td class="break" height="height" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                  <td class="break" align="right" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:12px; line-height:14px; vertical-align:top;">
+                    <a href="%%SYSTEM.EMAILMSG.web_view_url%%" target="_blank" style="text-decoration:none; color:#406980;">View in Browser</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- DANICA PENSION HEADER -->
+        <!-- DANICA PENSION FOR SELVSTÆNDIGE HEADER -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td height="40" style="height:40px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 580px;">
+                <tr>
+                  <td align="left" class="break" style="vertical-align:top;">
+                    <a href="#" target="_blank">
+                      <img class="w-full" alt="Danica Pension" height="48" src="http://nickipabst.dk/mail/img/7325949c-3410-46f1-bf33-ed9e6753e536.png" style="width:345px; display: block; border: 0; height: 48px;" />
+                    </a>
+                  </td>
+                  <td class="break" height="height" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                  <td class="break" align="right" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:12px; line-height:14px; vertical-align:top;">
+                    <a href="%%SYSTEM.EMAILMSG.web_view_url%%" target="_blank" style="text-decoration:none; color:#406980;">View in Browser</a>
+                  </td>
+
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- DANICA PENSION FOR SELVSTÆNDIGE HEADER -->
+        <!-- TRYG PENSION LILLE HEADER -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td height="40" style="height:40px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 580px;">
+                <tr>
+                  <td align="left" class="break" style="vertical-align:top;">
+                    <a href="#" target="_blank">
+                      <img class="w-full" alt="Danica Pension" height="93" src="http://nickipabst.dk/mail/img/af55d19f-3798-4fb1-a8d5-96260ba199e7.png" style="width:268px; display: block; border: 0; height: 93px;" />
+                    </a>
+                  </td>
+                  <td class="break" height="height" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                  <td class="break" align="right" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:12px; line-height:14px; vertical-align:top;">
+                    <a href="%%SYSTEM.EMAILMSG.web_view_url%%" target="_blank" style="text-decoration:none; color:#406980;">View in Browser</a>
+                  </td>
+
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- TRYG PENSION LILLE HEADER -->
+        <!-- TRYG PENSION STOR HEADER -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td height="40" style="height:40px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 580px;">
+                <tr>
+                  <td align="left" class="break" style="vertical-align:top;">
+                    <a href="#" target="_blank">
+                      <img class="w-full" alt="Danica Pension" height="120" src="http://nickipabst.dk/mail/img/afee2dd3-72b7-446d-a3c6-b5ef5931d162.png" style="width:345px; display: block; border: 0; height: 120px;" />
+                    </a>
+                  </td>
+                  <td class="break" height="height" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                  <td class="break" align="right" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:12px; line-height:14px; vertical-align:top;">
+                    <a href="%%SYSTEM.EMAILMSG.web_view_url%%" target="_blank" style="text-decoration:none; color:#406980;">View in Browser</a>
+                  </td>
+
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- TRYG PENSION STOR HEADER -->
+
+
+
+
+        <!-- ARTICLE WITH BUTTON -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px;">
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: Georgia, serif; color:#003559; font-size: 36px; line-height:52px; font-style:italic;">
+                    Danica Master
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="center" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003559; font-weight: 500; font-size: 16px; line-height:20px;">
+
+                    Free text - Medium size<br /><br />
+                    The hero module is the first module in all e-mails and sets the mood of the e-mail.
+                    This version us used for most e-mails such as newsletters, info mails and campaigns.​​
+
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="25" style="height:25px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left">
+                          <div>
+                            <!--[if mso]>
+                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:46px;v-text-anchor:middle;width:145px;" arcsize="50%" stroke="f" fillcolor="#009edd">
+                                <w:anchorlock/>
+                                <center>
+                            <![endif]-->
+                            <a class="button" href="#"
+                              style="background-color:rgba(0, 158, 221,1);border-radius:46px;color:#ffffff;display:inline-block;font-size: 16px; font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-weight:500;line-height:46px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none; min-width:105px; padding: 10 0 10 0;">Læs mere</a>
+                            <!--[if mso]>
+                                </center>
+                                </v:roundrect>
+                            <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- ARTICLE WITH BUTTON -->
+
+        <!-- ARTICLE WITH TEXT -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px;">
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: Georgia, serif; color:#003559; font-size: 36px; line-height:52px; font-style:italic;">
+                    Danica Master
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="16" style="height:16px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="center" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003559; font-weight: 500; font-size: 16px; line-height:20px;">
+                    The hero module is the first module in all e-mails and sets the mood of the e-mail.
+                    This version us used for most e-mails such as newsletters, info mails and campaigns.​​
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="25" style="height:25px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="center" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003559; font-weight: 500; font-size: 16px; line-height:20px;">
+                    Free text - Medium Size
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- ARTICLE WITH TEXT -->
+
+        <!-- ARTICLE -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px;">
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: Georgia, serif; color:#003559; font-size: 36px; line-height:52px; font-style:italic;">
+                    Mobilpension
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="16" style="height:16px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="center" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003559; font-weight: 500; font-size: 16px; line-height:20px;">
+                    Free text - medium size - Module used to promote the app with store links via icons on the element below. This text should be edited or removed. If the elements are used they should be place just before the footer
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- ARTICLE -->
+
+        <!-- DARKBLUE ARTICLE WITH BUTTON -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; background-color:#053754">
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: Georgia, serif; color:#ffffff; font-size: 36px; line-height:52px; font-style:italic;">
+                    Article Darkblue
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="center" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#ffffff; font-weight: 500; font-size: 16px; line-height:20px;">
+                    The article module is used for articles and stories. It comes three different colours. Image, headline and button can be removed and text can be aligned left (default) or center using the Text Settings to the right.
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="25" style="height:25px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left">
+                          <div>
+                            <!--[if mso]>
+                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:46px;v-text-anchor:middle;width:145px;" arcsize="50%" stroke="f" fillcolor="#009edd">
+                                <w:anchorlock/>
+                                <center>
+                            <![endif]-->
+                            <a class="button" href="#"
+                              style="background-color:rgba(0, 158, 221,1);border-radius:46px;color:#ffffff;display:inline-block;font-size: 16px; font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-weight:500;line-height:46px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none; min-width:105px; padding: 0 20px 0 20px;">Read more</a>
+                            <!--[if mso]>
+                                </center>
+                                </v:roundrect>
+                            <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- DARKBLUE ARTICLE WITH BUTTON -->
+
+        <!-- LIGHTBLUE ARTICLE WITH BUTTON -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; background-color:#F7FAFC">
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: Georgia, serif; color:#003755; font-size: 36px; line-height:52px; font-style:italic;">
+                    Article Lightblue
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="center" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003755; font-weight: 500; font-size: 16px; line-height:20px;">
+                    The article module is used for articles and stories. It comes three different colours. Image, headline and button can be removed and text can be aligned left (default) or center using the Text Settings to the right.
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="25" style="height:25px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left">
+                          <div>
+                            <!--[if mso]>
+                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:46px;v-text-anchor:middle;width:145px;" arcsize="50%" stroke="f" fillcolor="#009edd">
+                                <w:anchorlock/>
+                                <center>
+                            <![endif]-->
+                            <a class="button" href="#"
+                              style="background-color:rgba(0, 158, 221,1);border-radius:46px;color:#ffffff;display:inline-block;font-size: 16px; font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-weight:500;line-height:46px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none; min-width:105px; padding: 0 20px 0 20px;">Read more</a>
+                            <!--[if mso]>
+                                </center>
+                                </v:roundrect>
+                            <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- LIGHTBLUE ARTICLE WITH BUTTON -->
+
+        <!-- DOUBLE STORY - LARGEST FONT -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px;">
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="break" align="center" style="vertical-align:top;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left" style="font-family: Georgia, serif; color:#003559; font-size: 36px; line-height:42px; font-style:italic;">
+                          Double Story -<br />Largest Font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003559; font-weight: 500; font-size: 16px; line-height:20px;">
+                          Double Story - Small font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#009edd; font-weight: 500; font-size: 16px; line-height:20px;">
+                          <a href="#" target="_blank" style="text-decoration:none; color:#009edd;">Double Story - Bold font ></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="break" style="width:30px; height:60px;">&nbsp;</td>
+                  <td class="break" align="center" style="vertical-align:top;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left" style="font-family: Georgia, serif; color:#003559; font-size: 36px; line-height:42px; font-style:italic;">
+                          Double Story -<br />Largest Font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003559; font-weight: 500; font-size: 16px; line-height:20px;">
+                          Double Story - Small font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#009edd; font-weight: 500; font-size: 16px; line-height:20px;">
+                          <a href="#" target="_blank" style="text-decoration:none; color:#009edd;">Double Story - Bold font ></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- DOUBLE STORY - LARGEST FONT -->
+
+        <!-- DARKBLUE DOUBLE STORY - LARGEST FONT -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; background-color:#053754">
+                <tr>
+                  <td colspan="5" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="break" align="center" style="vertical-align:top;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left" style="font-family: Georgia, serif; color:#FFFFFF; font-size: 36px; line-height:42px; font-style:italic;">
+                          Double Story -<br />Largest Font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight: 500; font-size: 16px; line-height:20px;">
+                          Double Story - Small font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#009edd; font-weight: 500; font-size: 16px; line-height:20px;">
+                          <a href="#" target="_blank" style="text-decoration:none; color:#009edd;">Double Story - Bold font ></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="break" style="width:30px; height:60px;">&nbsp;</td>
+                  <td class="break" align="center" style="vertical-align:top;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left" style="font-family: Georgia, serif; color:#FFFFFF; font-size: 36px; line-height:42px; font-style:italic;">
+                          Double Story -<br />Largest Font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#FFFFFF; font-weight: 500; font-size: 16px; line-height:20px;">
+                          Double Story - Small font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#009edd; font-weight: 500; font-size: 16px; line-height:20px;">
+                          <a href="#" target="_blank" style="text-decoration:none; color:#009edd;">Double Story - Bold font ></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="5" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- DARKBLUE DOUBLE STORY - LARGEST FONT -->
+        <!-- DARKBLUE DOUBLE STORY - LARGEST FONT -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; background-color:#F7FAFC">
+                <tr>
+                  <td colspan="5" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="break" align="center" style="vertical-align:top;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left" style="font-family: Georgia, serif; color:#053754; font-size: 36px; line-height:42px; font-style:italic;">
+                          Double Story -<br />Largest Font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#053754; font-weight: 500; font-size: 16px; line-height:20px;">
+                          Double Story - Small font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#009edd; font-weight: 500; font-size: 16px; line-height:20px;">
+                          <a href="#" target="_blank" style="text-decoration:none; color:#009edd;">Double Story - Bold font ></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="break" style="width:30px; height:60px;">&nbsp;</td>
+                  <td class="break" align="center" style="vertical-align:top;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left" style="font-family: Georgia, serif; color:#053754; font-size: 36px; line-height:42px; font-style:italic;">
+                          Double Story -<br />Largest Font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#053754; font-weight: 500; font-size: 16px; line-height:20px;">
+                          Double Story - Small font
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#009edd; font-weight: 500; font-size: 16px; line-height:20px;">
+                          <a href="#" target="_blank" style="text-decoration:none; color:#009edd;">Double Story - Bold font ></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="5" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- DARKBLUE DOUBLE STORY - LARGEST FONT -->
+
+
+        <!-- LIGHTBLUE ARTICLE WITH BUTTON -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; background-color:#D7E9F1">
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left" style="font-family: Georgia, serif; color:#003755; font-size: 36px; line-height:52px; font-style:italic;">
+                    Tag et PensionsTjek - og se, om du sparer nok op
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="16" style="height:16px font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#003755; font-weight: 500; font-size: 16px; line-height:20px;">
+                    <ul>
+                      <li>Klik på 'Tjek min pension' og log på med NemID.</li>
+                      <li>Svar på nogle enkle spørgsmål om dig selv og dit liv.</li>
+                      <li>Tilpas din pensionsordning, hvis der er behov for det.</li>
+                    </ul>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="25" style="height:25px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left">
+                          <div>
+                              <!--[if mso]>
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="width:200px; height:46px;v-text-anchor:middle; padding: 0 20px 0 20px;" arcsize="50%" stroke="f" fillcolor="#009edd">
+                              <w:anchorlock/>
+                              <center>
+                              <![endif]-->
+                            <a class="button" href="#"
+                              style="background-color:rgba(0, 158, 221,1);border-radius:46px;color:#ffffff;display:inline-block;font-size: 16px; font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-weight:500;line-height:46px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none; min-width:105px; padding: 0 20px 0 20px; white-space: nowrap;">Tjek min pension</a>
+                              <!--[if mso]>
+                              </center>
+                              </v:roundrect>
+                              <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td class="w-left" align="left" style="font-family: 'Avenir Next', Arial, Helvetica, sans-serif; color:#053754; font-weight: 500; font-size: 12px; line-height:16px;">
+                    Viser dit PensionsTjek, at din pension og dine forsikringer følger vores anbefaling, så behøver du ikke tilpasse noget lige nu.
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- LIGHTBLUE ARTICLE WITH BUTTON -->
+
+        <!-- RED CTA -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px;">
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left">
+                          <div>
+                            <!--[if mso]>
+                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:46px;v-text-anchor:middle;width:145px;" arcsize="50%" stroke="f" fillcolor="#E65A6D">
+                            <w:anchorlock/>
+                            <center>
+                            <![endif]-->
+                            <a class="button" href="#"
+                              style="background-color:rgba(230, 90, 109,1);border-radius:46px;color:#ffffff;display:inline-block;font-size: 16px; font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-weight:500;line-height:46px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none; min-width:105px; padding: 0 20px 0 20px;">Read
+                              more</a>
+                            <!--[if mso]>
+                            </center>
+                            </v:roundrect>
+                            <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- RED CTA -->
+        <!-- GREEN CTA -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px;">
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="left">
+                          <div>
+                            <!--[if mso]>
+                                      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:46px;v-text-anchor:middle;width:145px;" arcsize="50%" stroke="f" fillcolor="#09B89D">
+                                      <w:anchorlock/>
+                                      <center>
+                                  <![endif]-->
+                            <a class="button" href="#"
+                              style="background-color:rgba(9, 184, 157,1);border-radius:46px;color:#ffffff;display:inline-block;font-size: 16px; font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-weight:500;line-height:46px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none; min-width:105px; padding: 0 20px 0 20px;">Read more</a>
+                            <!--[if mso]>
+                                      </center>
+                                      </v:roundrect>
+                                  <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="70" style="height:70px;">&nbsp;</td>
+          </tr>
+        </table>
+        <!-- GREEN CTA -->
+
+        <!-- SOCIAL MEDIA -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; border-top: 1px solid #e5ebee; background-color:#F7FAFC;">
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <a href="Facebook" target="_blank">
+                      <img alt="" class="w-full" height="46" src="http://nickipabst.dk/mail/img/82c37bc4-195e-4c85-b977-51b9b9b514fb.png" style="width:160px; display: block; border: 0; height: 46px;" />
+                    </a>
+                  </td>
+                  <td align="center">
+                    <a href="Danica" target="_blank">
+                      <img alt="" class="w-full" height="46" src="http://nickipabst.dk/mail/img/40dc59a7-a3f4-466e-bdd6-df0792ff59c2.png" style="width:160px; display: block; border: 0; height: 46px;" />
+                    </a>
+                  </td>
+                  <td align="center">
+                    <a href="Linkedin" target="_blank">
+                      <img alt="" class="w-full" height="46" src="http://nickipabst.dk/mail/img/07b1d7e2-48a1-4c70-9719-e742fcb77a1a.png" style="width:160px; display: block; border: 0; height: 46px;" />
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- SOCIAL MEDIA -->
+
+        <!-- APP DOWNLOAD -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px;">
+                <tr>
+                  <td height="20" style="height:20px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center">
+                          <img alt="Google play" class="w-100" height="70" src="http://nickipabst.dk/mail/img/9a277c83-3bce-435d-8918-493b24a3df93.jpeg" style="width:252px; display: block; border: 0; height: 70px;" />
+                        </td>
+                        <td style="width:20px; height:20px;">&nbsp;</td>
+                        <td align="center">
+                          <img alt="App Store" class="w-100" height="70" src="http://nickipabst.dk/mail/img/60d7fa2c-b078-4c6a-be9b-13bde1b33458.jpeg" style="width:252px; display: block; border: 0; height: 70px;" />
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="20" style="height:20px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- APP DOWNLOAD -->
+
+        <!-- FOOTER - DANICA PENSION -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; border-top: 1px solid #e5ebee; background-color:#F7FAFC;">
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:14px; line-height:18px; vertical-align:top; color:#003559;">
+                    Danica Pension<br />
+                    Parallelvej 17, 2800 Kgs. Lyngby<br />
+                    Phone <a href="tel:004570112525" target="_blank" style="text-decoration:none; color:#003559;">+45 70 11 25 25</a><br />
+                    <a href="https://danicapension.com" target="_blank" style="text-decoration:none; color:#009fda;">www.danicapension.com</a>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:14px; line-height:18px; vertical-align:top; color:#003559;">
+                    <a href="https://danicapension.dk/en/more-danica/cancel-your-consent" target="_blank" style="text-decoration:none; color:#009fda;">Unsubscribe</a>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="center">
+                    <img alt="" class="w-90p" height="76" src="http://nickipabst.dk/mail/img/094922e7-c246-4491-a826-344fd9567cb9.png" style="width:600px; display: block; border: 0; height: 76px;" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; border-top: 1px solid #e5ebee; background-color:#F7FAFC;">
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:11px; line-height:16px; vertical-align:top; color:#bfcdd4;">
+                    Danica Pension, Livsforsikringsaktieselskab, CVR-nr. 24 25 61 46 – København<br /><br />
+                    Please note that this message may contain confidential information. If you have received this message by mistake, please inform the sender of the mistake by sending a reply, then delete the message from your system without making,
+                    distributing or retaining any copies of it. Although we believe that the message and any attachments are free from viruses and other errors that might affect the computer or IT system where it is received and read, the recipient
+                    opens the message at his or her own risk. We assume no responsibility for any loss or damage arising from the receipt or use of this message.
+
+                    Danica Pension's processing of personal data is described
+                    <a href="https://danicapension.com" target="_blank" style="text-decoration:none; color:#009fda;">here</a>.
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- FOOTER - DANICA PENSION -->
+
+        <!-- FOOTER - TRYG PENSION -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; border-top: 1px solid #e5ebee; background-color:#F7FAFC;">
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:14px; line-height:18px; vertical-align:top; color:#003559;">
+                    Tryg Pension, leveret af Danica Pension <br />
+                    Parallelvej 17, 2800 Kgs. Lyngby<br />
+                    Phone <a href="tel:004570112525" target="_blank" style="text-decoration:none; color:#003559;">+45 70 11 25 25</a><br />
+                    <a href="https://danicapension.com" target="_blank" style="text-decoration:none; color:#009fda;">www.danicapension.com</a>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:14px; line-height:18px; vertical-align:top; color:#003559;">
+
+                    <a href="https://danicapension.dk/en/more-danica/cancel-your-consent" target="_blank" style="text-decoration:none; color:#009fda;">Afmeld</a>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="center">
+                    <img alt="" class="w-90p" height="208" src="http://nickipabst.dk/mail/img/afee2dd3-72b7-446d-a3c6-b5ef5931d162.png" style="width:600px; display: block; border: 0; height: 208px;" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="center">
+                    <img alt="" class="w-90p" height="88" src="http://nickipabst.dk/mail/img/768adbe4-1b3e-4d92-97b3-b9bd5b6f8221.png" style="width:600px; display: block; border: 0; height: 88px;" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; border-top: 1px solid #e5ebee; background-color:#F7FAFC;">
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:11px; line-height:16px; vertical-align:top; color:#bfcdd4;">
+                    Danica Pension, Livsforsikringsaktieselskab, CVR-nr. 24 25 61 46 – København<br />
+                    Danica Pension behandler personoplysninger som beskrevet <a href="#" target="_blank" style="text-decoration:none; color:#009fda;">her</a>.
+                    <br /><br />
+                    Tryg Pension er en attraktiv pensionsaftale for Trygs kunder. Pensionsaftalen formidles gennem Tryg, men det er Danica Pension, Parallelvej 17, 2800 Kgs. Lyngby. CVR-nr. 25 02 06 34, som du indgår aftale med. Danica er underlagt
+                    tilsyn af Finanstilsynet.
+                    <br /><br />
+                    Tryg Forsikring A/S, Klausdalsbrovej 601, 2750 Ballerup - Cvr 24260666<br />
+                    Tryg er tilsluttet Garantifonden for skadesforsikringsselskaber<br />
+                    Trygs <a href="#" target="_blank" style="text-decoration:none; color:#009fda;">persondata- og cookiepolitik</a>.
+                    <br /><br />
+                    Denne mail kan indeholde fortrolig information. Har du modtaget mailen ved en fejl, beder vi dig derfor informere afsender om fejlen ved at bruge svar-funktionen – og efterfølgende slette mailen i dit system uden at videresende
+                    eller kopiere den. Selv om mailen og vedhæftede bilag efter vores overbevisning er fri for virus og andre fejl, som kan påvirke computeren eller it-systemet, hvor den modtages og læses, åbnes den på modtagerens eget ansvar. Vi
+                    påtager os ikke noget ansvar for tab og skade, som er opstået i forbindelse med at modtage og bruge mailen.
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- FOOTER - TRYG PENSION -->
+
+        <!-- FOOTER - DANICA PENSION FOR SELVSTÆNDIGE -->
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; border-top: 1px solid #e5ebee; background-color:#F7FAFC;">
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:14px; line-height:18px; vertical-align:top; color:#003559;">
+                    Tryg Pension, leveret af Danica Pension <br />
+                    Parallelvej 17, 2800 Kgs. Lyngby<br />
+                    Phone <a href="tel:004570112525" target="_blank" style="text-decoration:none; color:#003559;">+45 70 11 25 25</a><br />
+                    <a href="https://danicapension.com" target="_blank" style="text-decoration:none; color:#009fda;">www.danicapension.com</a>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="30" style="height:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="center" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:14px; line-height:18px; vertical-align:top; color:#003559;">
+
+                    <a href="https://danicapension.dk/en/more-danica/cancel-your-consent" target="_blank" style="text-decoration:none; color:#009fda;">Afmeld</a>
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="center">
+                    <img alt="" class="w-90p" height="208" src="http://nickipabst.dk/mail/img/afee2dd3-72b7-446d-a3c6-b5ef5931d162.png" style="width:600px; display: block; border: 0; height: 208px;" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="center">
+                    <img alt="" class="w-90p" height="83" src="http://nickipabst.dk/mail/img/6ceba5c2-bad1-494a-ae18-0a1a17cf5f4d.png" style="width:600px; display: block; border: 0; height: 83;" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table class="w-90p" cellspacing="0" cellpadding="0" border="0" style="width: 640px; border-top: 1px solid #e5ebee; background-color:#F7FAFC;">
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                  <td align="left" style="font-family: 'AvenirNext', Arial, sans-serif; font-size:11px; line-height:16px; vertical-align:top; color:#bfcdd4;">
+                    Danica Pension, Livsforsikringsaktieselskab, CVR-nr. 24 25 61 46 – København
+                    <br /><br />
+                    Denne mail kan indeholde fortrolig information. Har du modtaget mailen ved en fejl, beder vi dig derfor informere afsender om fejlen ved at bruge svar-funktionen – og efterfølgende slette mailen i dit system uden at videresende
+                    eller kopiere den. Selv om mailen og vedhæftede bilag efter vores overbevisning er fri for virus og andre fejl, som kan påvirke computeren eller it-systemet, hvor den modtages og læses, åbnes den på modtagerens eget ansvar. Vi
+                    påtager os ikke noget ansvar for tab og skade, som er opstået i forbindelse med at modtage og bruge mailen.
+                    <br /><br />
+                    Danica Pension behandler personoplysninger som beskrevet <a href="#" target="_blank" style="text-decoration:none; color:#009fda;">her</a>.
+                  </td>
+                  <td class="w-20" style="width:30px;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="3" height="40" style="height:40px;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- FOOTER - DANICA PENSION FOR SELVSTÆNDIGE -->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

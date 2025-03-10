@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+	<title>Email frontender til marketin automation</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><meta name="format-detection" content="telephone=no" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="noindex,nofollow" /><meta name="x-apple-disable-message-reformatting" />
+	<style type="text/css">@import url('https://assets.prod.ibn.host/Blandet/Danica/Email_fonts.css');
+
+/* CLIENT-SPECIFIC STYLES */
+#outlook a { padding: 0; } /* Force Outlook to provide a "view in browser" message */
+
+.ReadMsgBody { width: 100%; }
+
+.ExternalClass { width: 100%; } /* Force Hotmail to display emails at full width */
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } /* Force Hotmail to display normal line spacing */
+
+body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } /* Prevent WebKit and Windows mobile changing default text sizes */
+
+td, a, span  { border-collapse: collapse; mso-line-height-rule: exactly; } /* MSO clients doesnt overule line height */
+
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; } /* Remove spacing between tables in Outlook 2007 and up */
+
+img { -ms-interpolation-mode: bicubic; } /* Allow smoother rendering of resized image in Internet Explorer */
+
+/* RESET STYLES */
+body { height: 100% !important; margin: 0; padding: 0; width: 100% !important; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+img { border: 0; line-height: 100%; outline: none; text-decoration: none; }
+
+table { border-collapse: collapse !important; }
+
+body { height: 100% !important; margin: 0 !important; padding: 0; width: 100% !important; }
+
+div[style*="margin: 16px 0"] { margin:0 !important; }
+
+/* iOS BLUE LINKS */
+
+.appleEvent a { color: #91908e; text-decoration: none; }
+
+.appleEvent_black a { color: #212121; text-decoration: none; }
+
+.appleAddress a { color: #212121; text-decoration: none; }
+
+.appleLinks a {color: inherit; text-decoration: none;}
+
+.appleLinksWhite a {color:#ffffff; text-decoration: none;}
+
+/*TAILORED STYLES*/
+span.snippet { display: none !important; font-size: 0; line-height: 0; }
+
+table.backgroundTable { margin: 0; padding: 0; width: 100% !important; }
+
+a:visited { color:none !important; }
+
+.button{
+  -moz-transition:-moz-transform .4s ease;
+  -webkit-transition:-webkit-transform .4s ease;
+  -o-transition:-o-transform .4s ease;
+}
+
+.button:hover{box-shadow: 0 1px 4px #ffffff !important; -moz-transition:-moz-transform .4s ease;
+  -webkit-transition:-webkit-transform .4s ease;
+  -o-transition:-o-transform .4s ease;   -moz-transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+  -o-transform:scale(1.2);}
+
+.button_white:hover{box-shadow: 0 1px 4px #eff7fa !important; -webkit-transition: background 0.5s; -moz-transition: background 0.5s; -0-transition: background 0.5s; -ms-transition: background 0.5s;}
+
+
+
+/* MOBILE STYLES */
+
+@media screen and (max-device-width: 650px), screen and (max-width: 650px) {
+
+*[class="logo"] { width: 200px !important; height: auto !important; }
+
+*[class="tjeck"] { background-image: url(tjeck.png); background-repeat: no-repeat; background-size: 30% !important; width:200px !important; height:200px !important; margin: auto !important; background-position: center !important;}
+
+*[class="100"] { width: 100% !important; height: auto !important; }
+
+*[class="80"] { width: 80% !important; height: auto !important; }
+
+*[class="20"] { width: 40% !important; height: auto !important; }
+
+*[class="w-20"] { width: 20px !important; height: auto !important; }
+
+*[class="white-20"] { width: 20px !important; height: auto !important; background-color: #ffffff !important; }
+
+*[class="w-50"] { width: 50px !important; height: auto !important; }
+
+*[class="center"] {margin-left: auto !important; margin-right: auto !important;}
+
+
+*[class="h-20"] { height: 20px !important; }
+
+*[class="h-40"] { height: 40px !important; }
+
+*[class="img_text"] { padding-left: 20px !important; padding-right: 20px !important; }
+
+*[class="ipad_text"] { padding-left: 20px !important; padding-right: 20px !important; text-align: center !important; }
+
+
+*[class="min-width"] { min-width: 320px !important; }
+
+*[class="show"] { visibility:visible !important; display:block !important; }
+
+*[class="hide"] {display:none !important;}
+
+*[class].break{ width: 100% !important; display: block; clear:both; }
+
+
+}
+
+/* Iphone 5*/
+@media screen and (max-device-width: 320px), screen and (max-width: 320px) {
+	*[class="w-50"] { width: 20px !important; height: auto !important; }
+}
+
+
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 0px 2000px, 0px 1400px, 50px 1000px;}
+}
+
+.zoom{
+  -moz-transition:-moz-transform .4s ease;
+  -webkit-transition:-webkit-transform .4s ease;
+  -o-transition:-o-transform .4s ease;
+}
+.zoom:hover{
+  -moz-transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+  -o-transform:scale(1.2);
+}
+	</style>
+	<!--[if mso]>
+		<style>
+.body_reg{
+font-family: Arial, sans-serif;
+}
+
+.body_bold{
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+
+.header_ita{
+font-family: Arial, sans-serif;
+
+}
+
+
+</style>
+		<![endif]--><!--[if gte mso 9]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG />
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+</head>
+<body bgcolor="#282a2e" style="margin: 0; padding: 0; min-width: 100%; width: 100% !important; background-color:#282a2e">
+	<!--[if mso]>
+	 <v:background
+		 xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+		 <v:fill type="tile" src="https://nickipabst.dk/img/Fabric.png"/>
+	 </v:background>
+	 <![endif]-->
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		 <tr>
+				<td valign="top" class="min-width" align="left" background="https://nickipabst.dk/img/Fabric.png" style="background:url(https://nickipabst.dk/img/Fabric.png) repeat; overflow: hidden; min-width: 600px;">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" class="100" style="width: 640px;">
+				<tbody>
+					<tr>
+						<td height="60">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center"><a href="https://nickipabst.dk" target="_blank"><img alt="" height="203" src="https://nickipabst.dk/img/logos/npabst_logo_white.png" style="display:block; width: 300px; height: 203px; border: 0;" /> </a></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" class="100" style="width: 640px;">
+				<tbody>
+					<tr>
+						<td colspan="3" height="80">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="w-50" style="width: 120px;">&nbsp;</td>
+						<td align="center" style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 44px; line-height: 48px; color: #ff6600;"><span class="header_ita">Hey OMD!<br />
+						<span style="color:#fff;">Are you looking for a Frontend Developer?</span> </span></td>
+						<td class="w-50" style="width: 120px;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="3" height="60">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" colspan="3"><a href="https://youtu.be/SN-1wxveZ_M" target="_blank"><img class="zoom" alt="Video" height="165" src="http://nickipabst.dk/img/HK-promo-video-thumb.png" style="border:0; display:block; width: 300px; height: 165px;" /></a></td>
+					</tr>
+					<tr>
+						<td colspan="3" height="60">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="w-50" style="width: 120px;">&nbsp;</td>
+						<td align="center" style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 20px; line-height: 25px; color: #ffffff;">
+						<p><span class="header_ita">My Name is Nicki. I am originally from Copenhagen, and I have just moved to Hamburg. I am a Frontend developer with focus on e-mails and Marketing Automation, and I am looking for a position at OMD.<br />
+						<br />
+						I have been doing frontend development since 2016, and worked in some of the biggest agencies in Denmark. Today I have my own company where I code emails and websites, create promotionel videos and animations, and I am a Mailchimp teacher for agencies and companies.</span></p>
+
+						<p><span class="header_ita">Take a look at my application <a href="https://nickipabst.dk/Ansoegning/Application.pdf" style="text-decoration:none; color:#ffffff; text-decoration:underline;" target="_blank">here</a><br />or take a look at my <a href="https://nickipabst.dk" target="_blank" style="text-decoration:underline; color:#ffffff;">website</a></span></p>
+						</td>
+						<td class="w-50" style="width: 120px;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="3" height="40">&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="w-50" style="width: 120px;">&nbsp;</td>
+						<td align="center" style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 20px; line-height: 25px; color: #ff6600;"><span class="header_ita">See some of my projects: </span></td>
+						<td class="w-50" style="width: 120px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" class="100" style="width: 450px;">
+				<tbody>
+					<tr>
+						<td colspan="3" height="40">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" class="break" style="vertical-align: top;">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td align="center" class="zoom" style="vertical-align: top; width: 200px; height: 150px;"><a href="https://assets.prod.ibn.host/Blandet/Showcase/Showcase/index.html" target="_blank"><img alt="" height="150" src="https://nickipabst.dk/img/portfolio/01-thumbnail.png" style="display:block; border:0; width: 200px; height:150px;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class="break" style="width:20px;">&nbsp;</td>
+						<td align="center" class="break" style="vertical-align: top;">
+						<table border="0" cellpadding="0" cellspacing="0" width="200">
+							<tbody>
+								<tr>
+									<td align="center" class="zoom" style="vertical-align: top; width: 200px; height: 150px;"><a href="https://assets.prod.ibn.host/Blandet/Showcase/Showcase/index.html" target="_blank"><img alt="" height="150" src="https://nickipabst.dk/img/portfolio/miniwelcome.gif" style="display:block; border:0; width: 200px; height:150px;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3" height="40">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" class="break" style="vertical-align: top;">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td align="center" class="zoom" style="vertical-align: top; width: 200px; height: 150px;"><a href="https://assets.prod.ibn.host/Blandet/Showcase/Showcase/index.html" target="_blank"><img alt="" height="150" src="https://nickipabst.dk/img/portfolio/miniToyota.gif" style="display:block; border:0; width: 200px; height: 150px;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td class="break" style="width:20px;">&nbsp;</td>
+						<td align="center" class="break" style="vertical-align: top;">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td align="center" class="zoom" style="vertical-align: top; width: 200px; height: 150px;"><a href="https://assets.prod.ibn.host/Blandet/Showcase/Showcase/index.html" target="_blank"><img alt="" height="150" src="https://nickipabst.dk/img/portfolio/miniYousee.gif" style="display:block; border:0; width: 200px; height:150px;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" height="80">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" class="100" style="width: 430px; border:1px solid #ffffff;">
+				<tbody>
+					<tr>
+						<td height="30">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+        Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 40px; line-height: 32px; color: #ff6600;"><span class="header_ita">1 click answer</span></td>
+					</tr>
+					<tr>
+						<td height="40">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+				Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 24px; line-height: 32px; color: #ffffff;"><span class="header_ita">"Thank you for contacting us - </span></td>
+					</tr>
+					<tr>
+						<td height="30">&nbsp;</td>
+					</tr>
+					<tr>
+
+						<!--[if mso]>
+
+						<td align="center">
+						<table cellspacing="0" cellpadding="0" border="0" style="vertical-align:middle; background-color:#df3627; mso-padding-alt: 12px 55px 12px 55px; border-radius:3px;">
+						<tr>
+						<![endif]-->
+										<td align="center">
+										<a href="https://nickipabst.dk/not-interested.html" class="button" style="mso-line-height-alt: 32px; background-color:#ff6600; border: 1px solid #ff6600; border-radius:3px;color:#ffffff;display:inline-block;mso-bidi-font-family: Arial, sans-serif; font-family: 'Lato', Arial, sans-serif;font-size:20px;mso-ansi-font-weight:bold;font-weight:400;line-height:44px;text-align:center;text-decoration:none!important;min-width:280px; -webkit-text-size-adjust:none; padding: 0 20px 0 20px;">But we are not interested
+										</a>
+										</td>
+
+									<!--[if mso]>
+										</tr>
+										</table>
+											</td>
+
+									<![endif]-->
+
+					</tr>
+					<tr>
+						<td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+					</tr>
+					<tr>
+
+						<!--[if mso]>
+
+						<td align="center">
+						<table cellspacing="0" cellpadding="0" border="0" style="vertical-align:middle; background-color:#df3627; mso-padding-alt: 12px 55px 12px 55px; border-radius:3px;">
+						<tr>
+						<![endif]-->
+										<td align="center">
+										<a href="https://nickipabst.dk/contact-soon.html" class="button" style="mso-line-height-alt: 32px; background-color:#ff6600; border: 1px solid #ff6600; border-radius:3px;color:#ffffff;display:inline-block;mso-bidi-font-family: Arial, sans-serif; font-family: 'Lato', Arial, sans-serif;font-size:20px;mso-ansi-font-weight:bold;font-weight:400;line-height:44px;text-align:center;text-decoration:none!important;min-width:280px; -webkit-text-size-adjust:none; padding: 0 20px 0 20px;">We will contact you soon
+										</a>
+										</td>
+
+									<!--[if mso]>
+										</tr>
+										</table>
+											</td>
+
+									<![endif]-->
+
+					</tr>
+					<tr>
+						<td height="10" style="height:10px; font-size:1px; mso-line-height-rule:exactly; line-height:1px;">&nbsp;</td>
+					</tr>
+					<tr>
+
+						<!--[if mso]>
+
+						<td align="center">
+						<table cellspacing="0" cellpadding="0" border="0" style="vertical-align:middle; background-color:#df3627; mso-padding-alt: 12px 55px 12px 55px; border-radius:3px;">
+						<tr>
+						<![endif]-->
+										<td align="center">
+										<a href="https://nickipabst.dk/croissants.html" class="button" style="mso-line-height-alt: 32px; background-color:#ff6600; border: 1px solid #ff6600; border-radius:3px;color:#ffffff;display:inline-block;mso-bidi-font-family: Arial, sans-serif; font-family: 'Lato', Arial, sans-serif;font-size:20px;mso-ansi-font-weight:bold;font-weight:400;line-height:44px;text-align:center;text-decoration:none!important;min-width:280px; -webkit-text-size-adjust:none; padding: 0 20px 0 20px;">Bring croissants for our meeting
+										</a>
+										</td>
+
+									<!--[if mso]>
+										</tr>
+										</table>
+											</td>
+
+									<![endif]-->
+
+					</tr>
+					<tr>
+						<td height="50">&nbsp;</td>
+					</tr>
+
+
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" class="100" style="width: 430px;">
+				<tbody>
+
+
+					<tr>
+						<td height="60">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td align="center" class="zoom" style="vertical-align: middle; width:40px;" valign="middle"><a href="mailto:kontakt@nickipabst.dk"><img alt="" height="29" src="https://nickipabst.dk/img/Symbols/mail.png" style="display:block; border:0; width: 40px; height: 29px;" /></a></td>
+									<td style="width:40px;">&nbsp;</td>
+									<td align="center" class="zoom" style="vertical-align: bottom; width:40px;" valign="bottom"><a href="https://nickipabst.dk" target="_blank"><img alt="" height="40" src="https://nickipabst.dk/img/Symbols/earth.png" style="display:block; border:0; width: 40px; height: 40px;" /></a></td>
+									<td style="width:40px;">&nbsp;</td>
+									<td align="center" class="zoom" style="vertical-align: top; width:40px;" valign="top"><a href="tel:004542483828" style="text-decoration:none; color:#ff6600;"><img alt="" height="38" src="https://nickipabst.dk/img/Symbols/phone.png" style="display:block; border:0; width: 40px; height: 38px;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="60">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 25px; line-height: 25px; color: #ffffff;"><span class="header_ita"><a href="https://nickipabst.dk/Ansoegning/Application.pdf" style="text-decoration:none; color:#ffffff; text-decoration:underline;" target="_blank">Download my application here</a> </span></td>
+					</tr>
+					<tr>
+						<td height="80">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" style="font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 25px; line-height: 30px; color: #ffffff;"><span class="header_ita"><strong>Thank you for your time</strong><br />
+						Looking forward hearing from you<br />
+						<br />
+						<a target="_blank" href="https://www.linkedin.com/in/nicki-pabst" style="color:#ff6600; text-decoration:none; font-weight:bold;">Nicki Pabst</a> </span></td>
+					</tr>
+					<tr>
+						<td height="20">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;" width="640">
+				<tbody>
+					<tr>
+						<td align="left"><img alt="" height="457" src="https://nickipabst.dk/img/team/Sidenicki.png" style="width:300px; display:block; border:0; height: 457px;" /></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
