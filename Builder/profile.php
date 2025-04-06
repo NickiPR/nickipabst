@@ -8,7 +8,7 @@ if (!isset($_SESSION['loggedin'])) {
 }
 $DATABASE_HOST = 'nickipabst.dk.mysql';
 $DATABASE_USER = 'nickipabst_dk';
-$DATABASE_PASS = 'L8i8Es6utf7cVAhXp2isQi4T';
+$DATABASE_PASS = '';
 $DATABASE_NAME = 'nickipabst_dk';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if (mysqli_connect_errno()) {
