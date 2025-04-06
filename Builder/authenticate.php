@@ -3,7 +3,7 @@ session_start();
 // Change this to your connection info.
 $DATABASE_HOST = 'nickipabst.dk.mysql';
 $DATABASE_USER = 'nickipabst_dk';
-$DATABASE_PASS = 'L8i8Es6utf7cVAhXp2isQi4T';
+$DATABASE_PASS = '';
 $DATABASE_NAME = 'nickipabst_dk';
 // Try and connect using the info above.
 
