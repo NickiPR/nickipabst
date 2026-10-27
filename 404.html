@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page not found | Nicki Pabst</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/css/redesign.css" />
+</head>
+<body class="notfound-page">
+  <main class="notfound">
+    <div class="notfound-grid" aria-hidden="true"></div>
+    <div class="notfound-inner">
+      <a class="brand" href="/">Nicki Pabst<span class="dot"></span></a>
+      <p class="notfound-code">404</p>
+      <h1 data-l="en">This page doesn't exist.</h1>
+      <h1 data-l="da">Siden findes ikke.</h1>
+      <p data-l="en">The link may be old, or the page has moved. The good stuff is on the front page.</p>
+      <p data-l="da">Linket kan være gammelt, eller siden er flyttet. Det gode er på forsiden.</p>
+      <div class="notfound-actions">
+        <a class="btn btn-primary" href="/"><span data-l="en">Back to the front page</span><span data-l="da">Tilbage til forsiden</span></a>
+        <a class="btn btn-ghost" href="/#kontakt"><span data-l="en">Book a meeting</span><span data-l="da">Book et møde</span></a>
+      </div>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var lang = "en";
+      try {
+        lang = localStorage.getItem("nickipabst_lang") || (navigator.language || "").slice(0, 2);
+      } catch (e) {}
+      document.documentElement.lang = lang === "da" ? "da" : "en";
+    })();
+  </script>
+</body>
+</html>

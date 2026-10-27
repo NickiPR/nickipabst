@@ -1,900 +1,593 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Nicki Pabst | Co-founder, Better Email</title>
+  <meta name="description" content="Nicki Pabst is co-founder of Better Email. AI won't speed up your email marketing unless you change the foundation. Here is why email design systems, not more templates, are the future." />
   <meta name="author" content="Nicki Pabst" />
-  <meta name="description" content="Nicki Pabst er Co-founder & CEO hos Better Email — en samarbejdsplatform der gør email-produktion op til 10x hurtigere." />
-  <meta property="og:locale" content="dk_GB" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="canonical" href="https://nickipabst.dk/" />
+  <link rel="alternate" hreflang="en" href="https://nickipabst.dk/" />
+  <link rel="alternate" hreflang="da" href="https://nickipabst.dk/da/" />
+  <link rel="alternate" hreflang="x-default" href="https://nickipabst.dk/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Nicki Pabst | Co-founder & CEO, Better Email" />
-  <meta property="og:description" content="Nicki Pabst er Co-founder & CEO hos Better Email — en samarbejdsplatform der gør email-produktion op til 10x hurtigere." />
+  <meta property="og:site_name" content="Nicki Pabst" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:title" content="Nicki Pabst | AI won't speed up your email marketing unless you change the foundation" />
+  <meta property="og:description" content="Nicki Pabst is co-founder of Better Email. Here is why email design systems, not more templates, are the future." />
   <meta property="og:url" content="https://nickipabst.dk/" />
-  <meta property="og:site_name" content="nickipabst" />
-  <meta property="og:image" content="https://nickipabst.dk/img/team/Banner.png" />
-  <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/main.css" />
-  <title>Nicki Pabst | Better Email</title>
+  <meta property="og:image" content="https://nickipabst.dk/img/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Nicki Pabst. AI won't speed up your email marketing." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nicki Pabst | AI won't speed up your email marketing unless you change the foundation" />
+  <meta name="twitter:description" content="Nicki Pabst is co-founder of Better Email. Here is why email design systems, not more templates, are the future." />
+  <meta name="twitter:image" content="https://nickipabst.dk/img/og.png" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="preload" href="fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/redesign.css" />
+  <script>
+    // Danish visitors (saved choice, or browser language) land on /da/. Search engines have neither, so they stay here.
+    (function () {
+      try {
+        var pref = localStorage.getItem("nickipabst_lang");
+        var want = pref || (navigator.language || "").slice(0, 2);
+        if (want === "da") location.replace("/da/" + location.hash);
+      } catch (e) {}
+    })();
+  </script>
+  <script type="application/ld+json" id="ld-json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://nickipabst.dk/#website",
+      "url": "https://nickipabst.dk/",
+      "name": "Nicki Pabst",
+      "inLanguage": [
+        "en",
+        "da"
+      ],
+      "publisher": {
+        "@id": "https://nickipabst.dk/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://nickipabst.dk/#person",
+      "name": "Nicki Pabst",
+      "jobTitle": "Co-founder",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Better Email",
+        "url": "https://better.email"
+      },
+      "url": "https://nickipabst.dk/",
+      "image": "https://nickipabst.dk/img/nicki-hero.webp",
+      "sameAs": [
+        "https://www.linkedin.com/in/nicki-pabst/"
+      ],
+      "knowsAbout": [
+        "Email design systems",
+        "Email marketing",
+        "Email production",
+        "Email development",
+        "AI in email marketing"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nickipabst.dk/#webpage",
+      "url": "https://nickipabst.dk/",
+      "name": "Nicki Pabst | Co-founder, Better Email",
+      "description": "Nicki Pabst is co-founder of Better Email. AI won't speed up your email marketing unless you change the foundation. Here is why email design systems, not more templates, are the future.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://nickipabst.dk/#website"
+      },
+      "about": {
+        "@id": "https://nickipabst.dk/#person"
+      },
+      "primaryImageOfPage": "https://nickipabst.dk/img/og.png"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nickipabst.dk/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will a new template fix my problems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A template is a finished answer to a question you already asked. Every campaign that does not quite fit becomes another copy, until you have so many templates that nobody remembers which one is right. Someone is responsible for holding it all together, and that person is you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI fix my email production on its own?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI is an accelerator. It cannot fix a broken structure. If your foundation is a mess, AI is simply speed at a higher risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I stop rebuilding the same email every time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With a design system. You build your header, hero, product card and button once, with your colors, fonts and spacing locked in. Every campaign after that is those modules arranged in a new order, and changing a module changes every email that uses it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can't I just wait for my ESP to fix this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your ESP builds one product for thousands of companies and will never know your brand the way you do. The change comes from external systems that understand your brand and remember every good and bad decision you made along the way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "So what does the future of email actually look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A template is a finished answer to a question you already asked. A design system prepares you for the questions you have not met yet. The future is building the system behind your campaigns instead of producing one-off emails."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
 </head>
-<body class="bodystyling">
-  <div id="global-bg">
-    <div class="bg-logo">
-      <div class="bg-texture">
-
-
-        <div class="container">
-          <div class="row row-full-height">
-
-              <!--MOBILE VERSION-->
-              <div class="mobile-version">
-                <div>
-                  <img class="mobile-text" src="img/turn-mobile.gif" alt="Vær venlig at vende din telefon" style="width:100%; height:auto; padding-bottom:1rem;">
-                </div>
-                <div>
-                  <h1 class="mobile-text" style="text-align:center; animation-delay: 1.3s; color:#f60;"><b>Vend<br />telefonen</b></h1>
-                </div>
-                </div>
-                <!--MOBILE VERSION-->
-            <div class="col">
-              <!-- POP UP -->
-              <div id="popup1" class="overlay">
-                <div class="popup">
-
-                  <a class="close" href="#">&times;</a>
-                  <div class="content">
-                    <div class="contact-popup">
-                      <div class="bg-form">
-                        <h2>Skriv til mig herunder<br /><br /></h2>
-
-                          <div class="row">
-
-                            <div class="col">
-                          <!-- sendy contactform-->
-
-                          <form action="https://mailify.dk/sendy//subscribe" method="POST" accept-charset="utf-8">
-
-                            <div style="display:inline-flex;">
-                              <div class="form-pop">
-                            <input required="required" class="form-control" type="text" name="name" id="name" placeholder="Dit navn"/>
-                            <br class="mobile-version"/>
-
-                            <input required="required" class="form-control" type="email" name="email" id="email" placeholder="Din email" />
-                          <br class="mobile-version"/>
-
-                          <input class="form-control" type="text" name="Phone" id="Phone" placeholder="Tlf nummer" />
-                          <br class="mobile-version"/>
-                        </div>
-                          </div>
-
-                          <div style="display:inline-flex;">
-
-                              <div class="pop-up-textarea">
-                                <textarea class="form-control"  name="message" id="message" placeholder="Besked" style="vertical-align:top;"></textarea>
-
-                              </div>
-                            </div>
-                            <div style="display:none;">
-                              <label for="hp">HP</label><br/>
-                              <input type="text" name="hp" id="hp"/>
-                            </div>
-                              <input type="hidden" name="list" value="pZGvlB7pz543My6TVUJt9w"/>
-                              <input type="hidden" name="subform" value="yes"/>
-
-
-
-                            <div class="col-lg-12 text-center">
-                              <br />
-                              <input class="button-kontakt btn btn-xl text-uppercase" type="submit" name="submit" id="submit" value="Send"/>
-                            </div>
-                          </form>
-
-                          
-</div>
-
-                          </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-
-
-              <!-- NYHEDSBREV-->
-              <div id="popup2" class="overlay">
-                <div class="popup">
-
-                  <a class="close" href="#">&times;</a>
-                  <div class="content">
-                    <div class="nyheds-popup">
-                      <div class="bg-form">
-                        <h2 class="mobile-h2" style="color:#fff;">Branchens vildeste nyhedsbrev<br />Skræddersyet til dig<br /><br /></h2>
-
-                          <div class="row">
-
-                            <div class="col">
-                          <!-- sendy contactform-->
-
-                          <form action="https://mailify.dk/sendy//subscribe" method="POST" accept-charset="utf-8">
-
-                            <div style="display:inline-flex;">
-                              <div class="form-pop">
-                            <input required="required" class="form-control" type="text" name="name" id="name" placeholder="Dit navn"/>
-                            <br class="mobile-version"/>
-
-                            <input required="required" class="form-control" type="email" name="email" id="email" placeholder="Din email" />
-                          <br class="mobile-version"/>
-
-
-                        </div>
-                          </div>
-
-
-                            <div style="display:none;">
-                              <label for="hp">HP</label><br/>
-                              <input type="text" name="hp" id="hp"/>
-                            </div>
-                              <input type="hidden" name="list" value="vCgBd2Vbb763VnzETB763pexwg"/>
-                              <input type="hidden" name="subform" value="yes"/>
-
-                              <div class="consent">
-                                <input type="checkbox" name="gdpr" id="gdpr"/>
-                                <h4 style="font-size:12px;">
-                                  <strong>Marketing permission</strong>: Jeg giver hermed min tilladelse til, at Nicki Pabst må sende mig mails om relevante emner inden for marketing automation. Du kan til enhver tid afmelde dig nyhedsbrevet, og dine data vil blive arkiveret. Ønsker du at dine data slettes, kan du sende en anmodning herom via kontaktformularen, eller besvare et nyhedsbrev.
-
-                              </div>
-
-                            <div>
-
-                              <input class="button-nyhed btn btn-xl text-uppercase" type="submit" name="submit" id="submit" value="Tilmeld"/>
-                            </div>
-                          </form>
-
-</div>
-
-                          </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <!-- NYHEDSBREV-->
-
-
-              <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
-              <ol class="carousel-indicators">
-                </ol>
-              <br />
-              
-      
-              
-              
-                
-             
-              <!-- POP UP -->
-              <div id="carouselExampleControls" class="carousel slide" data-interval="false">
-
-
-                <div class="carousel-inner">
-
-                  <div class="carousel-item active">
-                    <!-- CARD 1 | VIDEO -->
-
-                    <div class="card-basic">
-
-                      <div class="intro-video">
-                        <div class="video-container">
-
-                          <video playsinline autoplay muted loop class="myVideo">
-                            <source src="https://nickipabst.dk/img/intro.mp4" type="video/mp4">
-                          </video>
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#popup2">Nyhedsbrev</a>
-                          <a class="button kontakt-text" href="#popup1">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- CARD 1 | VIDEO -->
-
-                  </div>
-
-
-
-                  <div class="carousel-item">
-
-                    <!-- CARD 2 | INFO DESKTOP -->
-                    <div class="card-basic">
-
-                      <img class="small-logo" src="img/npabst_logo-small.png" alt="Nicki Pabst small logo" />
-
-
-                      <div class="kundecase-cardarea">
-                        <div class="row center">
-                          <div class="col full-page-article">
-                            <div class="outlook">
-                              <div class="col-7" style="flex-direction:row;">
-
-
-                                <h1 class="flyin-right" style="animation-delay: 0.1s;">Er din email markedsføring<br class="mobile-version" /> <b>optimal?</b></h1>
-                            <p class="flyin-right">
-
-                             Email markedsføring er en fantastisk strategi, til at nå potentielle kunder.<br />
-                             De færreste ved, at man bliver tracket når man modtager en mail, og det er derfor enormt indsigtsrige data vi får heraf.<br />
-<br />
-                             Når man som modtager åbner markedsføring, så er der en meget fin linje mellem, hvornår man føler sig oplyst, og hvornår man føler sig eksponeret for direkte salg.
-                             Samtidigt står din virksomheds identitet på spil, når du afsender din markedsføring. For en mail med fejl og mangler, peger direkte tilbage på dig som afsender.
-                            <br />Det er her magien fra email markedsføring sker, fordi dine modtagere er kritiske.
-                            Via tracking får du et vink med en vognstang, når dine modtagere begynder at afmelde sig, eller et mildt hint, når aktive modtagere stopper med at interagere med din markedsføring.<br /> <br />
-
-
-                            </p>
-                            </div>
-                            <div class="col-12">
-                              <div class="lotti-mail-image">
-                              <lottie-player class="flyin-top" src="https://assets9.lottiefiles.com/packages/lf20_OjG2Td.json"  background="transparent"  speed="0.8" count="1"  style="width: 70%; height: auto; margin-top:2em;" loop autoplay></lottie-player>
-                            </div>
-                            </div>
-                              </div>
-                              <div class="mellemtext">
-                                    <h3>Så hvad kan du gøre,<br /> for at forøge og vedligholde din <br />kontaktdatabase?</h3>
-                              </div>
-
-                            <div class="outlook">
-                              <div class="col-7" style="flex-direction:row;">
-
-
-                                <h1 class="flyin-right" style="animation-delay: 0.1s;">Er dine mails optimeret til<br class="mobile-version" /> <b>Outlook?</b></h1>
-                            <p class="flyin-right">
-
-                             <b>10%</b> af dine modtagere åbner i en Outlook klient*.
-                             Dine budskaber og din markedsføring er på spil, nå outlook klienten skal indlæse dine emails.
-                             <br />Optimerer man ikke sine templates til Outlook, så vil de blive vist med fejl.<br /><br />
-
-                             Fordi Outlook er den 4. mest brugte email klient, så er det vigtigt at dine kampagner er optimeret, så de bliver vist ordentligt i Outlook.<br /><br />
-
-                             Har man et B2B marked, så er chancen for ens modtagere åbner i en Outlook klient langt større, end ved B2C.<br />
-                             Desværre ser vi en stigende grad brug af Outlook klienten - både for desketop og mobil app, og det har aldrig været vigtigere, tage højde for Outlook og sikre sit budskab.
-
-                            </p>  <br />
-
-                            <br />
-                            </div>
-                            <div class="col-12"><img class="flyin-top" src="img/outlook-min.png" alt="Outlook version" /></div>
-                              </div>
-                            <div class="outlook">
-                              <div class="lotti-mobilvisning"><lottie-player src="https://assets8.lottiefiles.com/temp/lf20_xD5HTr.json" background="transparent"  speed="0.7"  style="width: 80%; height: auto; position: relative;" loop autoplay></lottie-player></div>
-                            <div style="flex-direction:row; margin:0 0 2em 0;">
-                              <h1><b>52,2%</b> åbner på <br />deres <b>smartphone</b>*</h1>
-                              <p>
-                                Udnytter du alle de muligheder som fx iPhone's mailsystem understøtter, eller har du taget højde for Gmail app's funktioner?
-
-
-                                <br />
-                                På smartphones arbejder vi med mindre skærme. Men det betyder ikke at vi skal gå på kompromis med indholdet.
-                                Bare vi husker læsbarheden.
-
-
-
-
-
-                              </p>
-                              <a href="https://www.campaignmonitor.com/resources/guides/email-marketing-trends/" target="_blank" style="font-size: 12px;">* Email trends 2019</a>
-                          </div>
-                            </div>
-
-                        </div>
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#popup2">Nyhedsbrev</a>
-                          <img class="cookie-animation" src="img/arrow-nobg.gif" alt="⬇️" style="width:2em; height:auto; top:-1em; left:6em; position:relative;">
-                          <a class="button kontakt-text" href="#popup1">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- CARD 2 | INFO DESKTOP -->
-                  </div>
-<!--
-                  <div class="carousel-item ">
-
-                    
-                    <div class="card-basic alpaco-card">
-
-                      <img class="small-logo cookie-animation" src="img/npabst_logo-small.png" alt="Nicki Pabst small logo" />
-
-
-                      <div class="kundecase-cardarea">
-                        <div class="row center">
-                          <div class="full-page">
-                            <div class="flyin-top center">
-                              <img class="alpaco-logo" src="img/alpaco-logo.svg" alt="Alpaco logo">
-
-                            </div>
-
-                              <h1 class="kundecases-text flyin-right" ><b>Hack din Mailchimp!</b></h1>
-                              <p class="center black-text flyin-left">Og lav dine mails, PRÆCIS som du vil have dem</p>
-
-
-                              
-
-                              <div class="alpaco-run-wrapper"><img class="alpaco-run" src="https://cdn.dorik.com/6148dcc5898d82001133ac61/6148dd31898d82001133ac67/images/Alpaca-full-2-2_pwz35fkl.gif" alt="Alpaco mailchimp" /></div>
-                            <div class="flyin-top center">
-
-
-
-
-
-
-                            <div class="fritz-text">
-                              <h2 class="black-text"><b>Slip for Mailchimps indbyggede email builder</b></h2>
-                              <p class="black-text">
-                               </p>
-                              <p class="black-text">
-                                Mailchimp, ligesom mange andre kendte ESP'er, låser deres blokke, så dine muligheder begrænses, når du skal designe en email.<br /><br />
-                                </p>
-                                <img class="mailchimp-limitations" src="img/mailchimp-limitations.png" alt="Mailchimp limitaitons" />
-                                <p class="black-text">
-
-                                <br />
-                                <h3 class="black-text">Derfor skal du bruge Alpaco!</h3>
-                               <p class="black-text">
-                                 Alpaco er løsningen til dig, som vil lave lækre mails, uden at skifte mailsystem.<br />
-
-                                Dette værktøj har jeg sammen med mine 3 dygtige partnere, udviklet til at hjælpe dig, med at bryde fri af din nuværende email designer.
-
-                                <br /><br />
-                                Alpaco Email Builder er både for Designeren uden kendskab til HTML, og for udvikleren på alle niveauer.
-                                </p>
-
-                                  <p class="black-text">
-                                    Du får <b>30 dage</b> til at finde ud af, om det er noget du kan bruge, og hvis du bruger rabatkoden <span style="background-color:#0E1E6B; padding: 0 5px; color:#fff;font-weight: 400;">Nickipabst</span> får du yderligere <b>10% rabat</b>, de første 6 måneder.
-                                  </p>
-
-                                  <a href="https://alpaco.email">
-                                    <img class="alpaco-head" src="https://alpaco-uploads.s3.eu-central-1.amazonaws.com/1/cec6b5ce-a6bb-4d37-a003-3b33e5cd8271/8ef5ae58-25b5-4715-b313-08655ef8601b.png" alt="Alpaco" /></a>
-                                  <a href="https://alpaco.email" class="myButton">Besøg Alpaco</a>
-
-                            </div>
-                          </div>
-
-
-
-
-                        </div>
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#" style="color:#282a2e;">Nyhedsbrev</a>
-                          <a class="button kontakt-text" href="#popup1" style="color:#282a2e;">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-                    
-                  </div>
-                  -->
-
-                  <div class="carousel-item">
-
-                    <!-- CARD 4 | KUNDECASE DESKTOP -->
-                    <div class="card-basic customer-card">
-
-                      <img class="small-logo cookie-animation" src="img/npabst_logo-small.png" alt="Nicki Pabst small logo" />
-
-
-                      <div class="kundecase-cardarea">
-                        <div class="row center">
-                          <div class="full-page">
-
-<h1 class="kundecases-text flyin-right" style="padding-bottom:1em;"><b>Kundecases</b></h1>
-
-<lottie-player class="flyin-bottom" src="https://assets2.lottiefiles.com/packages/lf20_uzoyW6.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px; margin-left: auto; margin-right: auto; margin-bottom:3em; margin-top:2em;"  loop autoplay></lottie-player>
-                            <!-- Fritz Hansen USERCASE-->
-                            <div class="flyin-top">
-                              <video playsinline autoplay muted loop class="myVideo">
-                                <source src="img/fritz.mp4" type="video/mp4">
-                              </video>
-                              <div>
-                                <img class="fritz-logo" src="img/fritz-logo.svg" alt="Fritz Hansen">
-
-                              </div>
-                            </div>
-
-                            <div class="fritz-text">
-                              <h1 style="color:#282a2e;"><b>Fritz Hansen</b> - <span class="kunde-text">et internationalt, eksklusivt designbrand</span></h1>
-                              <p style="color:#282a2e;">Grundlagt i Danmark i 1872 med en mission om at skabe tidløst design. Fritz Hansens kollektion består af internationalt anerkendte møbelklassikere samt moderne møbler, belysning og boligtilbehør.<br /><br />
-
-                              I tæt samarbejde med marketing teamet, har jeg flyttet og migreret Fritz Hansens konto, fra Campaign monitor, til Mailchimp. Jeg har designet og kodet deres email templates, samt sprogversioneret den til 5 hovedsprog, og segmenteret til 25 forskellige markeder.
-
-                              </p>
-                              <p style="color:#282a2e;">
-                                Da Mailchimp låser deres email builder, har jeg bygget min egen email builder, hvor Fritz Hansen kan lave deres mails, og derefter eksportere dem ind som templates i Mailchimp.
-                                Derved er baggrundsbilleder og dynamiske og responsivt design, blevet en standard, når Fritz Hansen sender deres nyhedsbreve ud.
-                                Du kan skrive dig op <a href="http://eepurl.com/hnr0bX" style="text-decoration: underline; color:#282a2e;" target="_blank">her</a>
-
-                                </p>
-                            </div>
-                            <figure class="ipad ipad-fritz">
-                            </figure>
-                            <div class="fritz-text">
-                              <h1 style="color:#282a2e;"><b>Mailchimp Hack</b> - <span class="kunde-text">design uden begrænsninger</span></h1>
-                              <p style="color:#282a2e;">
-                                Mailchimp er en favorit blandt danske virksomheder - og med god grund!<br />
-                                De mange integrationer, og det brugervenlige design, gør platformen let at bruge.
-                                Dog er Mailchimps email builder, enormt begrænset og bøvlet at arbejde med.<br />
-                                Mailchimp har en template upload funktion, der gør, at man kan kode sit eget nyhedsbrev.
-                                Denne mulighed har vi brugt, da Fritz Hansen ikke ønskede at gå på kompromis med deres design.
-                                <br /><br />
-                                <a href="#popup1" style="color:#282a2e;">Er email builderen noget du vil prøve, så kontakt mig her</a>
-                              </p>
-                            </div>
-
-                            <div class="img-full" style="margin-bottom:4em;">
-                              <img src="img/fritz-macbook.png" alt="Fritz hansen email builder at NickiPabst" />
-                            </div>
-
-                            <!-- Fritz Hansen USERCASE-->
-                              <!-- AIO USERCASE-->
-                              <div class="spinning-aio flyin-top" style="margin-bottom:6em;">
-                              <video playsinline autoplay muted loop class="myVideo">
-                                <source src="img/aio-logo.mp4" type="video/mp4">
-                              </video>
-                            </div>
-
-                            <div class="aio-text">
-                              <h1 style="color:#282a2e;"><b>aio</b> - <span class="kunde-text">Prisvindende design i custom kodet template</span></h1>
-                              <p style="color:#282a2e;"><b>aio</b> lancerede i 2020 deres app inden for sundhed, smertelindring og personlig udvikling.<br /><br />
-
-                              En startupvirksomhed som <b>aio</b> ville ikke gå på kompromis med design, og valgte en custom-kodet template integreret i Mailchimp, så deres nyhedsbreve kunne bevare <b>aio</b>'s prisvindende design.
-                              </p>
-                            </div>
-                            <div class="personlig-aio">
-                              <img src="img/nicki-aio-min.png" alt="Nickis personlige aio">
-                            </div>
-                            <div class="aio-award">
-                              <img class="aio-award button-glow" src="img/design-won-min.png" alt="award winning">
-                            </div>
-
-
-                            <iframe class="hk-youtube" src="https://www.youtube.com/embed/4nVE-PM3-aM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                          <div class="aio-text-center">
-                            <h1 style="color:#282a2e;"><b>aio</b>'s udvikling</h1>
-                            <p style="color:#282a2e;">
-                              Fra ingen mails til 4 dedikerede segmenter med hver deres automatiske flow og velkomst. De første tal har allerede vist, at brugerne er vilde med aio, og åbningsraterne ligger 85% over standarden.<br /><br />
-
-                              Er du nysgerrig, så kan du download <b>aio</b> <a href="https://apps.apple.com/us/app/aio-you-at-your-best/id1480228117?l=da&ls=1" target="_blank" style="text-decoration:underline;color: #282a2e;">her</a>
-                            </p>
-                          </div>
-                            <!-- AIO USERCASE-->
-
-                            <!-- HK USERCASE-->
-                            <div class="hk-card">
-
-
-                              <div class="center" style="padding: 6em 0;">
-                                <img src="img/logo_hk.svg" alt="HK logo">
-                              </div>
-
-                              <div class="aio-text">
-                                <h1 style="color:#282a2e;"><b>HK</b> - Bedre overgang</h1>
-                                <p style="color:#282a2e;"><b>HK</b> lancerede i 2020 et kæmpe flow for deres unge medlemmer.<br /><br />
-                               Formålet med dette flow var at introducere introkontengent samt fastholdelse i fagforeningen.
-                               <br /><br />
-                               De unge kan have flere gratismedlemskaber hos konkurrerende fagforeninger, og det har derfor været vigtigt at positionere sig overfor de unge, når de går fra gratis til betalende medlemmer.
-                               <br /><br />
-                               Interaktive mails skulle gøre det ekstra interessant for de unge modtagere, at følge med i flowet.
-                               Afslutningsvis kan modtageren bedømme HK, og vil derefter modtage biografbilleter.
-                               <br /><br />
-                               Alle emails er designet og kodet af mig, i samarbejde med Caroline Scheibel - <i>Marketing Automation Consultant</i> fra <b>HK</b>
-                               <br /><br />
-                               Vil du prøve at modtage den bedst performende interaktive mail i din indbakke?<br />
-                               <span style="font-size:12px;">- Dine oplysninger bliver slettet efterfølgende.</span>
-
-                                </p>
-                                <div class="form-pop" style="padding-bottom: 2em;">
-                                <form action="https://mailify.dk/sendy//subscribe" method="POST" accept-charset="utf-8">
-                                	<br />
-                                	<input class="minispace" type="text" name="name" id="name" placeholder="Navn"/>
-                                	<br/>
-
-                                	<input class="minispace" type="email" name="email" id="email" placeholder="Email"/><br/><div style="display:none;">
-                                	<label for="hp">HP</label><br/>
-                                	<input type="text" name="hp" id="hp"/>
-                                	</div>
-                                	<input type="hidden" name="list" value="NZslenyKGOHmaB5BWbiuVg"/>
-                                	<input type="hidden" name="subform" value="yes"/>
-                                	<input class="button-HK button-nyhed btn btn-xl text-uppercase" type="submit" value="Send nu" name="submit" id="submit"/>
-                                </form>
-                                </div>
-                                <div class="hk-bio"><img src="img/hk-doggo-min.png" alt="HK hunden"></div>
-
-
-                              </div>
-
-                              <iframe class="hk-youtube" src="https://www.youtube.com/embed/SN-1wxveZ_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-
-
-
-
-                            <!-- HK USERCASE-->
-
-
-
-                        </div>
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#" style="color:#282a2e;">Nyhedsbrev</a>
-                          <a class="button kontakt-text" href="#popup1" style="color:#282a2e;">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- CARD 4 | KUNDECASE DESKTOP -->
-                  </div>
-
-
-                  <div class="carousel-item">
-                    <!-- CARD 5 | BETTER EMAIL -->
-                    <div class="card-basic">
-
-                      <img class="small-logo" src="img/npabst_logo-small.png" alt="Nicki Pabst small logo" />
-
-
-                      <div class="card-area center">
-                        <div class="row center">
-
-                          <div class="col-6 textarea">
-                            <h1 class="flyin-right" style="animation-delay: 0.1s;">I dag bygger jeg <b>Better Email</b></h1>
-                            <p class="card-p-text flyin-top">
-                              Det meste af min tid går i dag med at være Co-founder & CEO hos <b>Better Email</b> — en samarbejdsplatform, hvor håndkodede, pixel-perfekte email-templates møder en drag-and-drop editor.
-                              <br />
-                              <br />
-                              Med vores AI-assistent Betty kan teams generere kampagneklare emails op til 10x hurtigere end den klassiske arbejdsgang. Platformen er ESP-agnostisk og integrerer bl.a. med Klaviyo, Mailchimp, Salesforce Marketing Cloud og Braze.
-                              <br />
-                              <br />
-                              Brands som Co-op, Norlys, Fritz Hansen og Tryg bruger i dag Better Email til at sende emails, der ser rigtige ud — hver gang.
-                              <br />
-                              <br />
-                              <a class="button kontakt-text" href="https://better.email" target="_blank" rel="noopener">Besøg better.email →</a>
-                            </p>
-                          </div>
-                          <div class="col-3">
-                            <div class="customers-brand">
-                              <img src="img/better-email-logo.svg" alt="Better Email logo" style="width:100%; height:auto; max-width:260px;" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#popup2">Nyhedsbrev</a>
-                          <a class="button kontakt-text" href="#popup1">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- CARD 5 | BETTER EMAIL -->
-                  </div>
-
-
-
-
-
-
-                  <div class="carousel-item">
-                    <!-- CARD 8 | HVEM ER NICKI -->
-                    <div class="card-basic">
-
-                      <img class="small-logo" src="img/npabst_logo-small.png" alt="Nicki Pabst small logo" />
-
-
-                      <div class="card-area">
-                        <div class="row center">
-
-
-                          <div class="card-dimensions card-seven">
-                            <div class="about-nicki flyin-right">
-                              <img src="img/Nicki-full-min.png" alt="Nicki fuld body" />
-                            </div>
-                            <div class="nicki-box flyin-top" style="animation-delay: 0.2s;"></div>
-                            <div class="uddannelse">
-                              <img class="mobile-text" src="img/uddannelse.svg" alt="uddannelses svg" onclick="uddannelsesfunktion()"
-                                style="cursor: pointer;" />
-
-                                 <lottie-player class="finger-pointer" src="https://assets8.lottiefiles.com/packages/lf20_sSfwEu.json"  background="transparent"  speed="1"  style="width: 8%; height: auto; position:absolute; top:-2%; right:55%; transform: rotate(-25deg); z-index:3;"  loop autoplay></lottie-player>
-                              <div id="uddannelsesdiv">
-                                <p>Multimediedesigner<br />PBA Digital Konceptudvikling<br /></p>
-                              </div>
-                            </div>
-
-                            <div class="erfaring">
-                              <img class="mobile-text" src="img/Erfaring-hvemernicki.svg" alt="Erfarings svg" onclick="erfaringsfunktion()"
-                                style="cursor: pointer; animation-delay: 1.5s;" />
-                              <div id="erfaringsdiv">
-                                <p>
-                                  2014 | Kommunikationsforeningen<br />
-                                  2015 | Merkle (tidl. Magnetix/isobar)<br />
-                                  2019 | Dwarf<br />
-                                  2021 | Co-Founder & CEO, <a href="https://better.email" target="_blank" rel="noopener">Better Email</a>
-                                </p>
-                              </div>
-                            </div>
-
-                            <div class="veardier">
-                              <img class="mobile-text" src="img/veardier.svg" alt="Værdier svg" onclick="veardierfunktion()"
-                                style="cursor: pointer; animation-delay: 2s;" />
-                              <div id="veardierdiv">
-
-                                  <ol>
-                                    <li><b>Jeg er fair</b><br />
-                                    Du kan være sikker på, at min håndtering af opgaver, både er fair og professionel.
-                                    <br />Jeg har arbejdet hele mit professionelle liv på bureauer og i email-branchen, så jeg ved hvad det vil sige, ikke at være fair.
-                                  </li>
-                                    <li>
-                                      <b>Jeg har hjertet med</b><br />
-                                    Når du samarbejder med mig, så møder du den Nicki, som min familie og mine venner møder. Jeg er ærlig og har hjertet med i mine valg, og det jeg leverer.
-                                  </li>
-
-                                    <li><b>Jeg har den nyeste viden</b><br />
-                                   Jeg holder mig opdateret med de nyeste trends. Jeg afprøver og tester dem, så du kan være sikker på, at de råd jeg giver, altid er de bedste.
-                                  </li>
-
-                                    <li><b>Jeg værner om din succes</b><br />
-
-
-
-                                      Det er vigtigt for mig, at mine kunder er glade for det, jeg leverer. Men det er mindst lige så vigtigt, at mine kunder får øget success, med det jeg laver. Min succes er mine kunders succes.
-                                    </li>
-
-                                    <li><b>Jeg støtter ikke hasardspil</b><br />
-                                    Jeg har valgt, at jeg ikke samarbejder med virksomheder, der tilbyder afhængighedsskabende tjenester i form af spil, casino eller lotto. Har du spørgsmål, er du velkommen til at kontakte mig <a href="#popup1">her</a>.<br /><br />
-                                    </li>
-                                  </ol>
-
-                              </div>
-                            </div>
-
-
-
-
-
-
-
-
-                          </div>
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#popup2">Nyhedsbrev</a>
-                          <a class="button kontakt-text" href="#popup1">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- CARD 8 | HVEM ER NICKI -->
-                  </div>
-
-
-
-<!--
-                  <div class="carousel-item">
-
-                    <div class="card-basic">
-
-                      <img class="small-logo" src="img/npabst_logo-small.png" alt="Nicki Pabst small logo" />
-
-
-                      <div class="card-area kontakt-bg">
-                        <div class="row">
-
-                          <div class="col-6 kontakt-textarea">
-                            <h1 class="mobile-h1 flyin-right" style="animation-delay: 0.2s;"><b>Kontakt</b></h1>
-                            <p class="flyin-right">
-                              Har du spørgsmål, eller vil du høre mere om Better Email? Så indtast dine informationer nedenfor, og jeg vil kontakte dig indenfor 24 timer.
-                            </p>
-                          </div>
-
-
-
-                          <div class="col kontaktform">
-                            <form action="https://mailify.dk/sendy//subscribe" method="POST" accept-charset="utf-8">
-                              <div class="row">
-                                <div class="col">
-                                  <div class="form-group flyin-top">
-                                    <input class="form-control" type="text" name="name" id="name" placeholder="Dit navn"
-                                      required="required" data-validation-required-message="Husk at skrive dit navn">
-
-                                  </div>
-                                  <div class="form-group flyin-top" style="animation-delay: 0.2s;">
-                                    <input class="form-control" type="email" name="email" id="email" placeholder="Din email"
-                                      required="required"
-                                      data-validation-required-message="Hov - det ser ikke helt rigtigt?">
-
-                                  </div>
-                                  <div class="form-group flyin-top" style="animation-delay: 0.3s;">
-                                    <textarea class="form-control" name="message" id="message" placeholder="Besked" required="required"
-                                      data-validation-required-message="Beskriv forespørgslen så præcist som muligt"></textarea>
-
-                                  </div>
-                                  <div class="clearfix"></div>
-                                  <div id="success"></div>
-                                  <br class="mobile-version"/>
-                                  <div style="display:none;">
-                                    <label for="hp">HP</label><br/>
-                                    <input type="text" name="hp" id="hp"/>
-                                    </div>
-                                    <input type="hidden" name="list" value="pZGvlB7pz543My6TVUJt9w"/>
-                                    <input type="hidden" name="subform" value="yes"/>
-                                    <input class="kontaktform-button" type="submit" name="submit" id="submit" value="Send"/>
-                                  </div>
-                                </div>
-                                  </form>
-                          </div>
-                          <div class="nicki-img">
-                            <img class="flyin-top" src="img/Nicki-head.png" alt="Nickis hoved" style="animation-delay: 0.2s;">
-                          </div>
-                          <div class="kontakt-bg"></div>
-
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#popup2">Nyhedsbrev</a>
-                          <a class="button kontakt-text" href="#popup1">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                  -->
-                  <div class="carousel-item">
-                    <!-- CARD 9 | KONTAKT -->
-                    <div class="card-basic">
-
-                      <img class="small-logo" src="img/npabst_logo-small.png" alt="Nicki Pabst small logo" />
-
-
-                      <div class="card-area kontakt-bg">
-                        <div class="row">
-
-<div class="col-6 kontakt-textarea">
-                            <h1 class="mobile-h1 flyin-right" style="animation-delay: 0.2s;"><b>Book</b></h1>
-                            <p class="flyin-right" style="padding-right:1em;">
-                              Du kan allerede nu booke et møde med mig — om det er en generel snak eller en forespørgsel om Better Email, så ser jeg frem til at se dig online.
-                            </p>
-                            <a class="button flyin-right mobile-only" href="#popup1">Book her</a>
-                          </div>
-                  <div class="calendar-wrapper desktop-only"><iframe class="calendar" src="https://koalendar.com/e/book-et-mode?embed=true" frameborder="0"></iframe></div>
-
-                        </div>
-                      </div>
-                      <div class="nyhedsbrev-container">
-                        <div class="nyhedsbrev">
-                          <a class="nyhedsbrev-text" href="#popup2">Nyhedsbrev</a>
-                          <a class="button kontakt-text" href="#popup1">Kontakt</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- CARD 9 | KONTAKT -->
-                  </div>
-
-                  
-
-                </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span aria-hidden="true">
-                    <img src="img/Arrow-left.png" alt="⬅" style="width: 40px; height: auto" />
-                  </span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span aria-hidden="true">
-                    <img src="img/Arrow-right.png" alt="➡" style="width: 40px; height: auto" />
-                  </span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-              
-            </div>
-            
-            
-          </div>
-          
+<body>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="#top">Nicki Pabst<span class="dot"></span></a>
+      <div class="nav-right">
+        <div class="lang-toggle">
+          <a href="/" data-lang="en" class="active" hreflang="en" lang="en">EN</a>
+          <a href="/da/" data-lang="da" hreflang="da" lang="da">DA</a>
         </div>
-        
-        <div class="cookie-container">
-          <p>
-            Tak for dit besøg ❤️<br />
-            Jeg bruger cookies til at tælle besøgende på min hjemmeside, har du lyst til at bidrage?<br />
-            <a href="http://nickipabst.dk/Cookies.html">Dine data er sikre hos mig</a>.
-          </p>
-
-          <button class="cookie-btn button-kontakt">
-            Accepter <div class="cookie-image"><lottie-player src="https://assets5.lottiefiles.com/packages/lf20_qiYND2.json" background="transparent"  speed="1"  style="max-width: 1em; width: 100%; height: auto; display:inline;"  loop autoplay></lottie-player></div>
-          </button>
-        </div>
-        
+        <a class="btn btn-accent" href="#kontakt" data-i18n="nav_book" style="padding:12px 22px; font-size:14px;">Book a meeting</a>
       </div>
-      
-        
-      
+    </div>
+  </nav>
+
+
+  <div class="slide-pager" id="slidePager">
+  <header class="hero slide" id="top">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="eyebrow" data-i18n="hero_eyebrow">Co-founder, Better Email</span>
+        <h1 data-i18n="hero_h1">AI won't speed up your email marketing.</h1>
+        <p class="hero-kicker" data-i18n="hero_kicker">Unless you change the foundation.</p>
+        <p class="hero-sub" data-i18n="hero_sub">
+          Most marketing teams still build content in their email system. If your process needs to scale with AI, that has to change.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#problem" data-i18n="hero_cta1">See why design systems are the future →</a>
+          <a class="btn btn-ghost" href="#kontakt" data-i18n="hero_cta2">Book a meeting</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>10+</b><span data-i18n="stat1">YEARS IN EMAIL</span></div>
+          <div class="stat"><b>2021</b><span data-i18n="stat2">FOUNDED BETTER EMAIL</span></div>
+          <div class="stat"><b data-i18n="stat3_b">Me</b><span data-i18n="stat3">EMAIL DEVELOPER &amp; DESIGNER</span></div>
+        </div>
+      </div>
+      <div class="hero-media hero-media-plain">
+        <img src="img/nicki-hero.webp" alt="Nicki Pabst" />
+      </div>
+    </div>
+  </header>
+  <section class="article-section slide" id="problem">
+    <div class="wrap">
+      <div class="article-copy prompt-sequence" id="problemSequence">
+        <div class="section-prompt" id="problemPrompt">
+          <div class="section-prompt-bubble">
+            <span class="section-prompt-typed"></span>
+          </div>
+          <button type="button" class="section-prompt-send" aria-hidden="true" tabindex="-1"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 10 4 15 9 20"/><path d="M20 4v7a4 4 0 0 1-4 4H4"/></svg></button>
+        </div>
+        <p class="prompt-source" data-i18n="problem_prompt" hidden>Will a new template fix my problems?</p>
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="s1_eyebrow">The problem</span>
+          <h2 data-i18n="s1_h2">The template that was supposed to save you time made you the bottleneck</h2>
+        </div>
+        <div class="prompt-body">
+          <p data-i18n="s1_p1">You built a template to save time. Then a campaign came along that didn't quite fit, so you copied it and changed a few things. Then it happened again. And again.</p>
+          <p data-i18n="s1_p2">Now you have so many templates that nobody remembers which one is the right one. But someone is responsible.</p>
+          <p data-i18n="s1_p3">And that person is you. The one who stays late to fix what should only have been fixed once. The one who knows every exception by heart, and never quite gets to put it down.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="article-section slide" id="ai-alone">
+    <div class="wrap">
+      <div class="prompt-sequence">
+        <div class="chatgpt-window" id="agentDemo">
+          <div class="chatgpt-body">
+            <div class="chatgpt-row chatgpt-row-user">
+              <div class="chatgpt-bubble-user">
+                <span class="agent-typed" id="agentTyped"></span>
+              </div>
+            </div>
+            <div class="chatgpt-row chatgpt-row-bot">
+              <div class="chatgpt-avatar"></div>
+              <div class="chatgpt-typing" id="agentTyping"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+        </div>
+        <p class="ai-prompt-source" data-i18n="ai_prompt" hidden>Create a newsletter, make no mistakes</p>
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="s2_eyebrow">Why AI alone won't fix it</span>
+          <h2 data-i18n="s2_h2">AI can write copy. It can't repair a broken structure.</h2>
+        </div>
+        <div class="prompt-body">
+          <p data-i18n="s2_p1">We have all tried this prompt, and ended up disappointed. AI is an accelerator. It cannot fix a broken structure.</p>
+          <p data-i18n="s2_p2">If your foundation is a mess, AI is simply speed at a higher risk.</p>
+          <p data-i18n="s2_p3">I know, I know. These days everyone expects things to go faster, and you end up sending bland emails and feeling burned out.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="article-section slide" id="the-fix">
+    <div class="wrap">
+      <div class="prompt-sequence">
+        <div class="section-prompt" id="fixPrompt">
+          <div class="section-prompt-bubble">
+            <span class="section-prompt-typed"></span>
+          </div>
+          <button type="button" class="section-prompt-send" aria-hidden="true" tabindex="-1"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 10 4 15 9 20"/><path d="M20 4v7a4 4 0 0 1-4 4H4"/></svg></button>
+        </div>
+        <p class="prompt-source" data-i18n="fix_prompt" hidden>How do I stop rebuilding the same email every time?</p>
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="s3_eyebrow">The fix</span>
+          <h2 data-i18n="s3_h2">A design system gives your team something solid to stand on</h2>
+        </div>
+        <div class="prompt-body">
+          <p data-i18n="s3_p1">Imagine opening a new campaign and every decision already feels right. The colors, the spacing, the buttons, all of it already knows who you are. Nobody copies an old email and hopes for the best. You build with pieces that remember how your brand should look and behave.</p>
+          <p data-i18n="s3_p2">Here is how it works. You build your header, your hero, your product card and your button once, with your colors, fonts and spacing locked in. Every campaign after that is simply those blocks arranged in a new order. Change a block, and every email that uses it changes with it.</p>
+          <ul>
+            <li data-i18n="s3_li1">Designers get to stop reviewing every single campaign</li>
+            <li data-i18n="s3_li2">Marketers get creative freedom without losing the brand</li>
+            <li data-i18n="s3_li3">Developers never fix the same mobile bug twice</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="article-section slide" id="see-it-work">
+    <div class="wrap wrap-wide">
+      <div class="section-head vd-head">
+        <span class="eyebrow" data-i18n="vd_eyebrow">See it work</span>
+        <h2 data-i18n="vd_h2">Change it once. Every email follows.</h2>
+      </div>
+      <div class="vd" id="vandraDemo">
+        <div class="vd-panel">
+          <div class="vd-panel-title"><span class="vd-chip-dot"></span>Vandra <em>design system</em><span class="vd-try"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M5 3l14 8-6.2 1.6L16 20l-2.6 1-3.2-7.4L5 18z"/></svg><span data-i18n="vd_try">Try it</span></span></div>
+          <div class="vd-group">
+            <span class="vd-label" data-i18n="vd_color">Brand color</span>
+            <div class="vd-swatches" data-vd="color">
+              <button type="button" class="active" data-value="#2f4a3c" style="--sw:#2f4a3c" aria-label="Moss"></button>
+              <button type="button" data-value="#c8582f" style="--sw:#c8582f" aria-label="Ember"></button>
+              <button type="button" data-value="#1f2d44" style="--sw:#1f2d44" aria-label="Dusk"></button>
+              <button type="button" data-value="#4f8697" style="--sw:#4f8697" aria-label="Glacier"></button>
+            </div>
+          </div>
+          <div class="vd-group">
+            <span class="vd-label" data-i18n="vd_type">Typeface</span>
+            <div class="vd-seg" data-vd="font">
+              <button type="button" class="active" data-value="'Archivo', 'Helvetica Neue', Arial, sans-serif" style="font-family:'Archivo',sans-serif">Aa</button>
+              <button type="button" data-value="Georgia, 'Times New Roman', serif" style="font-family:Georgia,serif">Aa</button>
+              <button type="button" data-value="'JetBrains Mono', ui-monospace, Menlo, monospace" style="font-family:'JetBrains Mono',monospace">Aa</button>
+            </div>
+          </div>
+          <div class="vd-group">
+            <span class="vd-label" data-i18n="vd_corners">Corners</span>
+            <div class="vd-seg" data-vd="radius">
+              <button type="button" class="active" data-value="0px" data-i18n="vd_sq">Square</button>
+              <button type="button" data-value="8px" data-i18n="vd_soft">Soft</button>
+              <button type="button" data-value="999px" data-i18n="vd_round">Round</button>
+            </div>
+          </div>
+          <div class="vd-group">
+            <span class="vd-label" data-i18n="vd_theme">Theme</span>
+            <div class="vd-seg" data-vd="theme">
+              <button type="button" class="active" data-value="light" data-i18n="vd_light">Light</button>
+              <button type="button" data-value="night" data-i18n="vd_night">Night</button>
+            </div>
+          </div>
+          <div class="vd-group vd-components">
+            <span class="vd-label" data-i18n="vd_components">Built once, reused everywhere</span>
+            <div class="vd-chips">
+              <button type="button" data-c="header" data-i18n="vd_c_header">Header</button>
+              <button type="button" data-c="hero" data-i18n="vd_c_hero">Hero</button>
+              <button type="button" data-c="text" data-i18n="vd_c_text">Text</button>
+              <button type="button" data-c="card" data-i18n="vd_c_card">Product card</button>
+              <button type="button" data-c="article" data-i18n="vd_c_article">Article</button>
+              <button type="button" data-c="button" data-i18n="vd_c_button">Button</button>
+              <button type="button" data-c="footer" data-i18n="vd_c_footer">Footer</button>
+            </div>
+          </div>
+          <code class="vd-tokens" id="vdTokens"></code>
+        </div>
+
+        <div class="vd-mails">
+          <figure class="vd-mail-wrap">
+            <figcaption data-i18n="vd_mail1">Product launch</figcaption>
+            <div class="vd-mail">
+              <div class="vd-header" data-c="header"><span class="vd-logo"><svg viewBox="0 0 12 12" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7 6 2.5 10 7M2 11l4-4.5L10 11"/></svg>VANDRA</span><span class="vd-nav">PACKS · SHELL · JOURNAL</span></div>
+              <div class="vd-hero" data-c="hero"><img src="img/vandra/hero.webp" alt="" /></div>
+              <div class="vd-text" data-c="text"><b>Built for the long way down.</b><span>The new Shell is here. Light, quiet and ready for weather.</span></div>
+              <div class="vd-btn-row"><span class="vd-btn" data-c="button">Shop the Shell</span></div>
+              <div class="vd-footer" data-c="footer"><span>VANDRA</span><span>Unsubscribe</span></div>
+            </div>
+          </figure>
+          <figure class="vd-mail-wrap">
+            <figcaption data-i18n="vd_mail2">Sale</figcaption>
+            <div class="vd-mail">
+              <div class="vd-header" data-c="header"><span class="vd-logo"><svg viewBox="0 0 12 12" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7 6 2.5 10 7M2 11l4-4.5L10 11"/></svg>VANDRA</span><span class="vd-nav">PACKS · SHELL · JOURNAL</span></div>
+              <div class="vd-text vd-center" data-c="text"><b>Season end sale</b><span>Up to 30% off shells and boots.</span></div>
+              <div class="vd-cards">
+                <div class="vd-card" data-c="card"><img src="img/vandra/jacket.webp" alt="" /><b>Shell Jacket</b><span>189 EUR</span></div>
+                <div class="vd-card" data-c="card"><img src="img/vandra/boot.webp" alt="" /><b>Trail Boot</b><span>149 EUR</span></div>
+              </div>
+              <div class="vd-btn-row"><span class="vd-btn" data-c="button">See all offers</span></div>
+              <div class="vd-footer" data-c="footer"><span>VANDRA</span><span>Unsubscribe</span></div>
+            </div>
+          </figure>
+          <figure class="vd-mail-wrap">
+            <figcaption data-i18n="vd_mail3">Newsletter</figcaption>
+            <div class="vd-mail">
+              <div class="vd-header" data-c="header"><span class="vd-logo"><svg viewBox="0 0 12 12" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7 6 2.5 10 7M2 11l4-4.5L10 11"/></svg>VANDRA</span><span class="vd-nav">PACKS · SHELL · JOURNAL</span></div>
+              <div class="vd-text" data-c="text"><b>The Journal</b><span>Stories from the trail, once a month.</span></div>
+              <div class="vd-article" data-c="article"><img src="img/vandra/camp.webp" alt="" /><div><b>Three nights above the treeline</b><span>Read story</span></div></div>
+              <div class="vd-article" data-c="article"><img src="img/vandra/valley.webp" alt="" /><div><b>Where the trail goes quiet</b><span>Read story</span></div></div>
+              <div class="vd-btn-row"><span class="vd-btn" data-c="button">Read the Journal</span></div>
+              <div class="vd-footer" data-c="footer"><span>VANDRA</span><span>Unsubscribe</span></div>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <p class="vd-hint" data-i18n="vd_hint">Click the design system and watch all three emails change. Hold your mouse over a module to see where it is used.</p>
+    </div>
+  </section>
+
+  <section class="article-section slide" id="why-not-wait">
+    <div class="wrap">
+      <div class="prompt-sequence">
+        <div class="section-prompt" id="espPrompt">
+          <div class="section-prompt-bubble">
+            <span class="section-prompt-typed"></span>
+          </div>
+          <button type="button" class="section-prompt-send" aria-hidden="true" tabindex="-1"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 10 4 15 9 20"/><path d="M20 4v7a4 4 0 0 1-4 4H4"/></svg></button>
+        </div>
+        <p class="prompt-source" data-i18n="esp_prompt" hidden>Can't I just wait for my ESP to fix this?</p>
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="s4_eyebrow">Why not just wait</span>
+          <h2 data-i18n="s4_h2">Your ESP is not going to rescue you</h2>
+        </div>
+        <div class="prompt-body">
+          <p data-i18n="s4_p1">I understand the hope. Maybe the next update brings a better editor, smarter templates, more AI. I have waited for that too. But your ESP builds one product for thousands of companies. It will never know your brand the way you do, or how your team really works.</p>
+          <p data-i18n="s4_p2">When AI finally arrives there, it will most likely sit on top of the same stiff editor. Faster words in the same rigid boxes. More emails, but not better ones. The change you are waiting for will come from external systems that understand your brand and remember every good and bad decision you made along the way. You will <b>never</b> get this with your ESP...</p>
+          <p data-i18n="s4_p3">But you can always try to ask your ESP</p>
+
+      <div class="esp-carousel prompt-reveal-widget" id="espCarousel">
+        <div class="esp-viewport">
+          <div class="esp-track" id="espTrack">
+            <div class="esp-card">
+              <div class="esp-logo" style="--esp-color:#fa0f00"><img src="img/esp/adobe.svg" alt="Adobe" /></div>
+              <div class="esp-bubble">
+                <div class="esp-name">Adobe / Marketo</div>
+                <p class="esp-quote" data-i18n="esp1">"You found a bug? Good for you. Here's a case number."</p>
+              </div>
+            </div>
+            <div class="esp-card">
+              <div class="esp-logo" style="--esp-color:#00a1e0"><img src="img/esp/salesforce.svg" alt="Salesforce" /></div>
+              <div class="esp-bubble">
+                <div class="esp-name">Salesforce Marketing Cloud</div>
+                <p class="esp-quote" data-i18n="esp2">"We understand your frustration. Here's our wiki."</p>
+              </div>
+            </div>
+            <div class="esp-card">
+              <div class="esp-logo esp-logo-light"><img src="img/esp/klaviyo.png" alt="Klaviyo" /></div>
+              <div class="esp-bubble">
+                <div class="esp-name">Klaviyo</div>
+                <p class="esp-quote" data-i18n="esp3">"Have you tried our brand-new AI feature yet?"</p>
+              </div>
+            </div>
+            <div class="esp-card">
+              <div class="esp-logo" style="--esp-color:#241c15"><img src="img/esp/mailchimp.svg" alt="Mailchimp" /></div>
+              <div class="esp-bubble">
+                <div class="esp-name">Mailchimp</div>
+                <p class="esp-quote" data-i18n="esp4">"AI, what is that?"</p>
+              </div>
+            </div>
+            <div class="esp-card">
+              <div class="esp-logo" style="--esp-color:#ff7a59"><img src="img/esp/hubspot.svg" alt="HubSpot" /></div>
+              <div class="esp-bubble">
+                <div class="esp-name">HubSpot</div>
+                <p class="esp-quote" data-i18n="esp5">"Let's book a call and talk about upgrading your subscription"</p>
+              </div>
+            </div>
+            <div class="esp-card">
+              <div class="esp-logo esp-logo-light esp-logo-wide"><img src="img/esp/braze.svg" alt="Braze" /></div>
+              <div class="esp-bubble">
+                <div class="esp-name">Braze</div>
+                <p class="esp-quote" data-i18n="esp6">"We just got bought by Salesforce, so we don't give a sh%#"</p>
+              </div>
+            </div>
+            <div class="esp-card">
+              <div class="esp-logo esp-logo-light"><img src="img/esp/activecampaign.webp" alt="ActiveCampaign" /></div>
+              <div class="esp-bubble">
+                <div class="esp-name">ActiveCampaign</div>
+                <p class="esp-quote" data-i18n="esp7">"Automation is powerful. Here's a 40-step onboarding flow."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="esp-dots" id="espDots"></div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" id="better-email">
+    <div class="be-section">
+      <div class="be-grid-bg" aria-hidden="true"></div>
+      <div class="be-inner">
+        <div class="be-copy">
+          <span class="eyebrow" data-i18n="be_eyebrow">Better Email</span>
+          <h2 data-i18n="be_h2">Email production, without trading speed for <mark class="be-highlight">quality</mark></h2>
+          <p data-i18n="be_p1">Better Email is a design-system platform. You define your brand's modules once in a Drag&amp;Drop editor, and every campaign after that is built from the same locked, on-brand pieces.</p>
+          <p data-i18n="be_p2">It's ESP-agnostic, with 22+ integrations.</p>
+          <div class="be-stats">
+            <div class="stat"><b>10x</b><span data-i18n="be_stat1">Faster production</span></div>
+            <div class="stat"><b>2021</b><span data-i18n="be_stat2">Founded in Denmark</span></div>
+            <div class="stat"><b>22+</b><span data-i18n="be_stat3">Platform integrations</span></div>
+          </div>
+          <a class="btn be-btn-cta" href="https://better.email" target="_blank" rel="noopener" data-i18n="be_cta">Visit better.email →</a>
+        </div>
+        <div class="be-mockup">
+          <div class="be-mockup-bar">
+            <span class="fw-dot fw-red"></span>
+            <span class="fw-dot fw-yellow"></span>
+            <span class="fw-dot fw-green"></span>
+            <span class="be-mockup-url">app.better.email</span>
+          </div>
+          <div class="be-mockup-body" id="bettySlot">
+            <div class="bv" id="bettyPlayer">
+              <video id="bettyVideo" src="video/betty-ai-intro.mp4" poster="video/betty-ai-intro-poster.jpg" muted loop playsinline preload="none" aria-label="Betty, the Better Email AI agent, at work"></video>
+              <button type="button" class="bv-center" aria-label="Play"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+              <div class="bv-controls">
+                <button type="button" class="bv-btn bv-play" aria-label="Pause"><span class="i-play"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="i-pause"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg></span></button>
+                <input type="range" class="bv-seek" min="0" max="1000" value="0" step="1" aria-label="Seek" />
+                <span class="bv-time">0:00 / 0:00</span>
+                <button type="button" class="bv-btn bv-mute" aria-label="Turn sound on"><span class="i-muted"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9l5 6M21 9l-5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="i-vol"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9zM16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M4 9v6h4l5 4V5L8 9z"/></svg></span></button>
+                <button type="button" class="bv-btn bv-expand" aria-label="Open larger"><span class="i-expand"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="be-trust">
+        <span class="be-trust-label" data-i18n="be_trust_label">Trusted by teams at</span>
+        <div class="be-trust-logos">
+          <img src="img/clients/co-op.svg" alt="Co-op" />
+          <img src="img/clients/norlys.svg" alt="Norlys" />
+          <img src="img/clients/dinesen.png" alt="Dinesen" />
+          <img src="img/clients/tryg.svg" alt="Tryg" />
+          <img src="img/clients/dba.svg" alt="dba" />
+          <img src="img/clients/fritz_hansen.svg" alt="Fritz Hansen" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="article-section slide" id="the-future">
+    <div class="wrap">
+      <div class="prompt-sequence">
+        <div class="section-prompt" id="futurePrompt">
+          <div class="section-prompt-bubble">
+            <span class="section-prompt-typed"></span>
+          </div>
+          <button type="button" class="section-prompt-send" aria-hidden="true" tabindex="-1"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 10 4 15 9 20"/><path d="M20 4v7a4 4 0 0 1-4 4H4"/></svg></button>
+        </div>
+        <p class="prompt-source" data-i18n="future_prompt" hidden>So what does the future of email actually look like?</p>
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="s6_eyebrow">The future</span>
+          <h2 data-i18n="s6_h2">The future isn't more templates</h2>
+        </div>
+        <div class="prompt-body">
+          <p data-i18n="s6_p1">A template is a finished answer to a question you already asked. A design system prepares you for the questions you have not met yet. One keeps you looking backwards. The other lets you grow.</p>
+          <p data-i18n="s6_p2">If email is going to be faster, braver and more human, we have to stop producing one-off campaigns and start building the system behind them. That is the future I believe in, and I get up every morning to build it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band slide" id="work-with-me">
+    <div class="wrap">
+      <h2 data-i18n="cta_h2">Want to build emails without becoming the bottleneck?</h2>
+      <p data-i18n="cta_p">See how my team and I work with email design systems at Better Email.</p>
+      <a class="btn btn-primary" href="https://better.email" target="_blank" rel="noopener" data-i18n="cta_btn">Visit better.email →</a>
+    </div>
+  </section>
+
+  <section class="article-section slide" id="kontakt">
+    <div class="wrap">
+      <div class="prompt-sequence">
+        <div class="section-prompt" id="contactPrompt">
+          <div class="section-prompt-bubble">
+            <span class="section-prompt-typed"></span>
+          </div>
+          <button type="button" class="section-prompt-send" aria-hidden="true" tabindex="-1"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 10 4 15 9 20"/><path d="M20 4v7a4 4 0 0 1-4 4H4"/></svg></button>
+        </div>
+        <p class="prompt-source" data-i18n="contact_prompt" hidden>I'm interested, who can I talk to?</p>
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="contact_eyebrow">Contact</span>
+          <h2 data-i18n="contact_h2">Let's talk</h2>
+        </div>
+        <div class="prompt-body">
+          <p data-i18n="contact_p">Grab a time directly in the calendar below, or open it in its own tab.</p>
+          <div class="contact-calendar prompt-reveal-widget">
+            <div class="calendar-card">
+              <iframe data-src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ180TzbiPex5G0lGQc_BujgJfzncJkebzaY33HYYNz1t4glmGNifnl1Ms2f7NlA1GE42klvF-N0" title="Book a meeting"></iframe>
+            </div>
+            <div class="booking-cta">
+              <a class="btn btn-ghost" href="https://calendar.app.google/FAovQ8qukKx76pvL6" target="_blank" rel="noopener" data-i18n="contact_open_calendar">Open booking page in new tab →</a>
+              <a class="btn btn-ghost btn-linkedin" href="https://www.linkedin.com/in/nicki-pabst/" target="_blank" rel="noopener"><img src="img/social/linkedin.svg" alt="" /><span data-i18n="contact_linkedin">Message me on LinkedIn</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <footer class="slide-footer">
+    <div class="wrap">
+      <div class="footer-row">
+        <span>© <span id="year"></span> Nicki Pabst</span>
+        <ul class="footer-links">
+          <li><a href="legal.html" data-i18n="footer_legal">Cookies &amp; terms</a></li>
+        </ul>
+        <a class="footer-linkedin" href="https://www.linkedin.com/in/nicki-pabst/" target="_blank" rel="noopener">
+          <img src="img/social/linkedin.svg" alt="" />
+          <span data-i18n="footer_linkedin">Connect on LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+  </section>
+  </div>
+    <div class="pager-progress" id="pagerProgress"></div>
+
+
+  <div class="video-modal" id="videoModal" hidden role="dialog" aria-modal="true" aria-label="Betty video">
+    <div class="video-modal-backdrop" data-close></div>
+    <div class="video-modal-box">
+      <button type="button" class="video-modal-close" aria-label="Close video" data-close>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+      <div class="video-modal-slot" id="videoModalSlot"></div>
     </div>
   </div>
 
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
-
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-  <script>
-    var video = document.getElementsByClassName("myVideo");
-
-
-    function myFunction() {
-      if (video.paused) {
-        video.play();
-        btn.innerHTML = "Pause";
-      } else {
-        video.pause();
-        btn.innerHTML = "Play";
-      }
-    }
-  </script>
-
-  <script>
-    function uddannelsesfunktion() {
-      var x = document.getElementById("uddannelsesdiv");
-      x.classList.toggle("show");
-    }
-
-    function erfaringsfunktion() {
-      var x = document.getElementById("erfaringsdiv");
-      x.classList.toggle("show");
-    }
-
-    function veardierfunktion() {
-      var x = document.getElementById("veardierdiv");
-      x.classList.toggle("show");
-    }
-  </script>
-  <script src="js/main.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138435221-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-138435221-1');
-</script>
-
-
-
-<!-- <script src="//code.tidio.co/yw34coyeqyerqxvkvulbico8uux5wkkt.js" async></script> -->
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="js/lang.js"></script>
+  <script src="js/interactive.js"></script>
 </body>
-
 </html>

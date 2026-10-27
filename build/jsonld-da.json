@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://nickipabst.dk/#website",
+      "url": "https://nickipabst.dk/",
+      "name": "Nicki Pabst",
+      "inLanguage": [
+        "en",
+        "da"
+      ],
+      "publisher": {
+        "@id": "https://nickipabst.dk/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://nickipabst.dk/#person",
+      "name": "Nicki Pabst",
+      "jobTitle": "Medstifter",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Better Email",
+        "url": "https://better.email"
+      },
+      "url": "https://nickipabst.dk/",
+      "image": "https://nickipabst.dk/img/nicki-hero.webp",
+      "sameAs": [
+        "https://www.linkedin.com/in/nicki-pabst/"
+      ],
+      "knowsAbout": [
+        "Email design systems",
+        "Email marketing",
+        "Email production",
+        "Email development",
+        "AI in email marketing"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nickipabst.dk/da/#webpage",
+      "url": "https://nickipabst.dk/da/",
+      "name": "Nicki Pabst | Medstifter af Better Email",
+      "description": "Nicki Pabst er medstifter af Better Email. AI gør ikke din email marketing hurtigere, medmindre du ændrer fundamentet. Her er hvorfor designsystemer, ikke flere skabeloner, er fremtiden for email.",
+      "inLanguage": "da",
+      "isPartOf": {
+        "@id": "https://nickipabst.dk/#website"
+      },
+      "about": {
+        "@id": "https://nickipabst.dk/#person"
+      },
+      "primaryImageOfPage": "https://nickipabst.dk/img/og.png"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nickipabst.dk/da/#faq",
+      "inLanguage": "da",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Løser en ny skabelon mine problemer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. En skabelon er et færdigt svar på et spørgsmål, du allerede har stillet. Hver kampagne, der ikke helt passer, bliver en ny kopi, indtil du har så mange skabeloner, at ingen kan huske, hvilken der er den rigtige. Nogen har ansvaret for at holde det hele sammen, og den person er dig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan AI løse min emailproduktion alene?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI er en accelerator. Den kan ikke reparere en ødelagt struktur. Hvis dit fundament er et rod, er AI bare fart med højere risiko."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvordan undgår jeg at genopfinde den samme email hver gang?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Med et designsystem. Du bygger din header, dit hero, dit produktkort og din knap én gang, med dine farver, skrifter og afstande låst fast. Hver kampagne derefter er de samme moduler i en ny rækkefølge, og ændrer du et modul, ændrer alle emails, der bruger det, sig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan jeg ikke bare vente på, at min ESP løser det?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Din ESP bygger ét produkt til tusindvis af virksomheder og kommer aldrig til at kende dit brand, som du gør. Forandringen kommer fra eksterne systemer, der forstår dit brand og husker hver eneste gode og dårlige beslutning, du har truffet undervejs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvordan ser fremtiden for email egentlig ud?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En skabelon er et færdigt svar på et spørgsmål, du allerede har stillet. Et designsystem gør dig klar til de spørgsmål, du endnu ikke har mødt. Fremtiden er at bygge systemet bag dine kampagner i stedet for at lave enkeltstående emails."
+          }
+        }
+      ]
+    }
+  ]
+}

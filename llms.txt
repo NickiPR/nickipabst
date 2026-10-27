@@ -1,0 +1,23 @@
+# Nicki Pabst
+
+> Nicki Pabst is co-founder of Better Email, an enterprise email production platform built around design systems and an AI agent called Betty. This site is his argument that AI will not speed up email marketing unless the foundation under it changes.
+
+## About
+- Role: co-founder of Better Email (https://better.email), founded in Denmark in 2021
+- More than ten years in email as developer and designer
+- LinkedIn: https://www.linkedin.com/in/nicki-pabst/
+- Languages: English (https://nickipabst.dk/) and Danish (https://nickipabst.dk/da/)
+
+## The argument, in short
+- Templates are finished answers to questions you already asked. Copying them builds a library nobody can keep track of, and a person who holds it together alone.
+- AI is an accelerator. It cannot fix a broken structure. On a messy foundation it is speed at a higher risk.
+- A design system fixes the foundation: header, hero, product card, button and other modules are built once with brand colors, fonts and spacing locked in. Campaigns are those modules arranged in a new order, and changing a module changes every email that uses it.
+- Your ESP builds one product for thousands of companies and will not know your brand. The change comes from external systems that understand your brand and remember every good and bad decision.
+
+## Pages
+- [Front page, English](https://nickipabst.dk/): the full argument, one section at a time. Sections have their own anchors: #problem, #ai-alone, #the-fix, #see-it-work, #why-not-wait, #better-email, #the-future, #kontakt
+- [Forside, dansk](https://nickipabst.dk/da/): the same in Danish
+- [Cookies, privacy and terms](https://nickipabst.dk/legal.html)
+
+## Contact
+Book a meeting at https://nickipabst.dk/#kontakt or message Nicki on LinkedIn. There is deliberately no public email address.
